@@ -78,12 +78,6 @@
 
             animator.SetBool("greeting", false);
             animator.SetBool("spinning", true);
-            SpinCharacter2();
-        }
-        void SpinCharacter2()
-        {
-            animator.SetBool("spinning", false);
-            animator.SetBool("spinning2", true);
         }
 
 
