@@ -4,7 +4,7 @@ public class SceneOrientation : MonoBehaviour
 {
     public bool vertical = true;
 
-    void Start()
+    void Awake()
     {
         if (vertical)
         {
@@ -12,7 +12,9 @@ public class SceneOrientation : MonoBehaviour
         }
         else
         {
-            Screen.orientation = ScreenOrientation.LandscapeLeft;
+            Screen.autorotateToLandscapeLeft = true;
+            Screen.autorotateToLandscapeRight = true;
+            Screen.orientation = ScreenOrientation.AutoRotation;
         }
     }
 }

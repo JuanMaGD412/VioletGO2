@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f6859624dd2518b40917306b6dff6499
+guid: 69bd4a7b6ee9faa479f279ac88bd9660
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,12 +108,56 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "sprite bot\xF3n entendio y x_0"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 114
+        width: 192
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd50847cfd7fca043a87f9a53e004adf
+      internalID: -540055472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sprite bot\xF3n entendio y x_1"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 115
+        width: 744
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fb0180bfac37548b5fed8d4cfda359
+      internalID: 1107516992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e631e6010bf63524c9e78de90a15563d
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +166,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "sprite bot\xF3n entendio y x_0": -540055472
+      "sprite bot\xF3n entendio y x_1": 1107516992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

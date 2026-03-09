@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     float idleTimer = 0f;
+    public bool mobileSprint = false;
+
 
     void Start()
     {
@@ -49,11 +51,13 @@ public class PlayerMovement : MonoBehaviour
             float speed = moveSpeed;
             bool running = false;
 
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                speed *= sprintMultiplier;
-                running = true;
-            }
+        if (Input.GetKey(KeyCode.LeftShift) || mobileSprint)
+        {
+            speed *= sprintMultiplier;
+            running = true;
+        }
+
+
 
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
 
@@ -95,5 +99,10 @@ public class PlayerMovement : MonoBehaviour
 
             idleTimer = 0f;
         }
+    }
+
+    public void ToggleSprint()
+    {
+        mobileSprint = !mobileSprint;
     }
 }
