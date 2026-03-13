@@ -18,7 +18,7 @@ public class TriviaLoader : MonoBehaviour
         StartCoroutine(CargarTrivia());
     }
 
-    IEnumerator CargarTrivia()
+    public IEnumerator CargarTrivia()
     {
         string url = baseURL + numeroLaberinto + ".json";
 
@@ -34,7 +34,7 @@ public class TriviaLoader : MonoBehaviour
 
             Debug.Log("Laberinto cargado desde Firebase");
 
-            OnTriviaLoaded?.Invoke(); // 🔥 Avisar que ya cargó
+            OnTriviaLoaded?.Invoke();
         }
         else
         {
