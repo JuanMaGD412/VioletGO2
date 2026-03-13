@@ -6,10 +6,7 @@ public class TriviaManager : MonoBehaviour
 {
     public TriviaLoader loader;
 
-    public int numeroLaberinto = 1;
-
     public TMP_Text textoPregunta;
-
     public Button[] botonesRespuesta;
     public TMP_Text[] textosBotones;
 
@@ -18,7 +15,20 @@ public class TriviaManager : MonoBehaviour
 
     void Start()
     {
-        preguntas = loader.ObtenerPreguntasLaberinto(numeroLaberinto);
+        loader.OnTriviaLoaded += InicializarTrivia;
+    }
+
+    void InicializarTrivia()
+    {
+        preguntas = loader.ObtenerPreguntas();
+
+        if (preguntas == null || preguntas.Length == 0)
+        {
+            Debug.LogError("No hay preguntas");
+            return;
+        }
+
+        preguntaActual = 0;
         MostrarPregunta();
     }
 
@@ -28,16 +38,15 @@ public class TriviaManager : MonoBehaviour
 
         textoPregunta.text = p.pregunta;
 
-        int cantidadOpciones = p.opciones.Length;
-
         for (int i = 0; i < botonesRespuesta.Length; i++)
         {
-            if (i < cantidadOpciones)
+            if (i < p.opciones.Length)
             {
                 botonesRespuesta[i].gameObject.SetActive(true);
                 textosBotones[i].text = p.opciones[i];
 
                 int index = i;
+
                 botonesRespuesta[i].onClick.RemoveAllListeners();
                 botonesRespuesta[i].onClick.AddListener(() => Responder(index));
             }
@@ -53,17 +62,15 @@ public class TriviaManager : MonoBehaviour
         Pregunta p = preguntas[preguntaActual];
 
         if (opcion == p.respuestaCorrecta)
-        {
             Debug.Log("Correcto");
-        }
         else
-        {
             Debug.Log("Incorrecto");
-        }
 
         preguntaActual++;
 
         if (preguntaActual < preguntas.Length)
             MostrarPregunta();
+        else
+            Debug.Log("Trivia terminada");
     }
 }

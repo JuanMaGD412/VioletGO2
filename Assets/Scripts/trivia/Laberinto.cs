@@ -1,13 +1,6 @@
 [System.Serializable]
-public class TriviaData
-{
-    public Laberinto[] laberintos;
-}
-
-[System.Serializable]
 public class Laberinto
 {
-    public int id;
     public Pregunta[] preguntas;
 }
 

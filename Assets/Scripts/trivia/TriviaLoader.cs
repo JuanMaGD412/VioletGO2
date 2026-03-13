@@ -1,24 +1,49 @@
 using UnityEngine;
+using UnityEngine.Networking;
+using System.Collections;
+using System;
 
 public class TriviaLoader : MonoBehaviour
 {
-    public TextAsset jsonFile;
+    public int numeroLaberinto = 1;
 
-    public TriviaData data;
+    private string baseURL = "https://violeta-go-default-rtdb.firebaseio.com/laberintos/";
 
-    void Awake()
+    public Laberinto laberinto;
+
+    public event Action OnTriviaLoaded;
+
+    void Start()
     {
-        data = JsonUtility.FromJson<TriviaData>(jsonFile.text);
+        StartCoroutine(CargarTrivia());
     }
 
-    public Pregunta[] ObtenerPreguntasLaberinto(int id)
+    IEnumerator CargarTrivia()
     {
-        foreach (var l in data.laberintos)
-        {
-            if (l.id == id)
-                return l.preguntas;
-        }
+        string url = baseURL + numeroLaberinto + ".json";
 
-        return null;
+        UnityWebRequest request = UnityWebRequest.Get(url);
+
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            string json = request.downloadHandler.text;
+
+            laberinto = JsonUtility.FromJson<Laberinto>(json);
+
+            Debug.Log("Laberinto cargado desde Firebase");
+
+            OnTriviaLoaded?.Invoke(); // 🔥 Avisar que ya cargó
+        }
+        else
+        {
+            Debug.LogError(request.error);
+        }
+    }
+
+    public Pregunta[] ObtenerPreguntas()
+    {
+        return laberinto.preguntas;
     }
 }

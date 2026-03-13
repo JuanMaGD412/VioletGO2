@@ -1,80 +1,95 @@
 {
-    "laberintos": [
-      {
-        "id": 1,
-        "preguntas": [
-          {
-            "categoria": "VBG",
-            "pregunta": "Un estudiante agrede físicamente a su pareja dentro del campus tras una discusión, expresando que lo hace porque 'ella debe comportarse como una mujer y obedecerlo'. ¿Qué tipo de violencia es?",
-            "opciones": [
-              "Violencia sexual",
-              "Violencia simbólica",
-              "Violencia física"
-            ],
-            "respuestaCorrecta": 2
-          },
-          {
-            "categoria": "VBG",
-            "pregunta": "Una directiva universitaria desacredita sistemáticamente las capacidades de una profesora frente a su equipo, haciendo comentarios como 'por eso las mujeres no deberían liderar proyectos complejos'. ¿Qué tipo de violencia es?",
-            "opciones": [
-              "Violencia psicológica o emocional",
-              "Violencia económica",
-              "Violencia patrimonial"
-            ],
-            "respuestaCorrecta": 0
-          },
-          {
-            "categoria": "VBG",
-            "pregunta": "Un profesor condiciona la aprobación de una asignatura a cambio de recibir favores o insinuaciones sexuales de una estudiante.",
-            "opciones": [
-              "Violencia psicológica",
-              "Violencia sexual",
-              "Violencia simbólica"
-            ],
-            "respuestaCorrecta": 1
-          },
-          {
-            "categoria": "VBG",
-            "pregunta": "Un jefe administrativo niega sistemáticamente a una trabajadora el acceso a oportunidades de capacitación y horas extras pagadas.",
-            "opciones": [
-              "Violencia patrimonial",
-              "Violencia económica",
-              "Violencia física"
-            ],
-            "respuestaCorrecta": 1
-          },
-          {
-            "categoria": "VBG",
-            "pregunta": "En una relación de pareja entre estudiantes, uno de ellos daña intencionalmente la computadora y materiales académicos de su pareja.",
-            "opciones": [
-              "Violencia psicológica",
-              "Violencia patrimonial",
-              "Violencia simbólica"
-            ],
-            "respuestaCorrecta": 1
-          },
-          {
-            "categoria": "VBG",
-            "pregunta": "No permitir que una persona no binarie se inscriba en un curso con su nombre identitario porque no coincide con el documento.",
-            "opciones": [
-              "Violencia económica",
-              "Violencia por prejuicio",
-              "Violencia psicológica"
-            ],
-            "respuestaCorrecta": 1
-          },
-          {
-            "categoria": "VBG",
-            "pregunta": "Un jurado niega la viabilidad de una tesis por considerarla 'muy militante' al tratar sobre mujeres afrodescendientes y cuidado comunitario.",
-            "opciones": [
-              "Violencia simbólica",
-              "Violencia psicológica",
-              "Violencia epistemológica"
-            ],
-            "respuestaCorrecta": 2
-          }
-        ]
-      }
-    ]
+  "laberintos": {
+    "1": {
+      "preguntas": [
+        {
+          "categoria": "VBG",
+          "pregunta": "Un estudiante agrede físicamente a su pareja dentro del campus tras una discusión, expresando que lo hace porque 'ella debe comportarse como una mujer y obedecerlo'. ¿Qué tipo de violencia es?",
+          "opciones": [
+            "Violencia sexual",
+            "Violencia simbólica",
+            "Violencia física"
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "categoria": "VBG",
+          "pregunta": "Una directiva universitaria desacredita sistemáticamente las capacidades de una profesora frente a su equipo, haciendo comentarios como 'por eso las mujeres no deberían liderar proyectos complejos'. ¿Qué tipo de violencia es?",
+          "opciones": [
+            "Violencia psicológica o emocional",
+            "Violencia económica",
+            "Violencia patrimonial"
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "categoria": "VBG",
+          "pregunta": "Un profesor condiciona la aprobación de una asignatura a cambio de recibir favores o insinuaciones sexuales de una estudiante.",
+          "opciones": [
+            "Violencia psicológica",
+            "Violencia sexual",
+            "Violencia simbólica"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "categoria": "VBG",
+          "pregunta": "Un jefe administrativo niega sistemáticamente a una trabajadora el acceso a oportunidades de capacitación y horas extras pagadas.",
+          "opciones": [
+            "Violencia patrimonial",
+            "Violencia económica",
+            "Violencia física"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "categoria": "VBG",
+          "pregunta": "En una relación de pareja entre estudiantes, uno de ellos daña intencionalmente la computadora y materiales académicos de su pareja.",
+          "opciones": [
+            "Violencia psicológica",
+            "Violencia patrimonial",
+            "Violencia simbólica"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "categoria": "VBG",
+          "pregunta": "No permitir que una persona no binarie se inscriba en un curso con su nombre identitario porque no coincide con el documento.",
+          "opciones": [
+            "Violencia económica",
+            "Violencia por prejuicio",
+            "Violencia psicológica"
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "categoria": "VBG",
+          "pregunta": "Un jurado niega la viabilidad de una tesis por considerarla 'muy militante' al tratar sobre mujeres afrodescendientes y cuidado comunitario.",
+          "opciones": [
+            "Violencia simbólica",
+            "Violencia psicológica",
+            "Violencia epistemológica"
+          ],
+          "respuestaCorrecta": 2
+        }
+      ]
+    }
+    ,
+ 
+    "2": {
+      "preguntas":[
+        {
+          "categoria":"VBG",
+          "pregunta":"Otra pregunta...",
+          "opciones":[
+            "A",
+            "B",
+            "C"
+          ],
+          "respuestaCorrecta":0
+        }
+      ]
+    }
   }
-  
+ }
+ 
