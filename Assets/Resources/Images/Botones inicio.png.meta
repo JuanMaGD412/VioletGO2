@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 672e5c32f1f32334b95a722bdd377ee1
+guid: 7fb66936a48d7924c90f46f83112d01c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,12 +108,100 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Botones inicio_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 234
+        width: 294
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798fd3b46c8addb4dbd896a19b8d5444
+      internalID: -2062916579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones inicio_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 234
+        width: 294
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee397e32fbb7b8f459ad574e19968c3a
+      internalID: -502028271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones inicio_3
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 234
+        width: 294
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b382ea89b44708e4d86e6a9ce2bb3da9
+      internalID: -1352039493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botones inicio_2
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 213
+        width: 301
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b27ae7bd97e64687d56551450ead1
+      internalID: -1483914931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 0f5ca1482a743b842a04b858d155bb52
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +210,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Botones inicio_0: -2062916579
+      Botones inicio_1: -502028271
+      Botones inicio_2: -1483914931
+      Botones inicio_3: -1352039493
+      Botones inicio_4: 1415687765
+      Botones inicio_5: 609389246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

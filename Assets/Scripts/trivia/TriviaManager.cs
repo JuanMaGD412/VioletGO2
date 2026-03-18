@@ -12,6 +12,10 @@ public class TriviaManager : MonoBehaviour
 
     private Pregunta[] preguntas;
     private int preguntaActual = 0;
+    private int respuestasCorrectas = 0;
+    public int numeroLaberinto; // importante asignarlo en Unity
+    public TMP_Text textoRangoFinal;
+
 
     void Start()
     {
@@ -62,15 +66,43 @@ public class TriviaManager : MonoBehaviour
         Pregunta p = preguntas[preguntaActual];
 
         if (opcion == p.respuestaCorrecta)
+        {
             Debug.Log("Correcto");
+            respuestasCorrectas++; // 👈 IMPORTANTE
+        }
         else
+        {
             Debug.Log("Incorrecto");
+        }
 
         preguntaActual++;
 
         if (preguntaActual < preguntas.Length)
             MostrarPregunta();
         else
-            Debug.Log("Trivia terminada");
+            FinalizarTrivia(); // 👈 en lugar de solo log
     }
+
+    void FinalizarTrivia()
+    {
+        Debug.Log("Trivia terminada");
+
+        int labIndex = numeroLaberinto - 1;
+
+        int rango = RangoManager.Instance.CalcularRango(labIndex, respuestasCorrectas);
+
+        string nombreRango = RangosData.ObtenerNombreRango(labIndex, rango);
+
+        Debug.Log("Aciertos: " + respuestasCorrectas);
+        Debug.Log("Rango obtenido: " + nombreRango);
+
+        MostrarResultado(nombreRango);
+    }
+
+    void MostrarResultado(string nombreRango)
+    {
+        textoRangoFinal.text = nombreRango;
+    }
+
+
 }

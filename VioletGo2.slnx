@@ -21,6 +21,7 @@
   <Project Path="Unity.2D.Tilemap.Editor.csproj" />
   <Project Path="Unity.Burst.csproj" />
   <Project Path="PsdPlugin.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.2D.Animation.Editor.csproj" />
   <Project Path="Unity.2D.SpriteShape.Editor.csproj" />
   <Project Path="Unity.VisualStudio.Editor.csproj" />
@@ -35,7 +36,6 @@
   <Project Path="Unity.Burst.CodeGen.csproj" />
   <Project Path="Unity.PerformanceTesting.csproj" />
   <Project Path="Unity.VisualScripting.State.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.Performance.Profile-Analyzer.Editor.csproj" />
   <Project Path="Unity.2D.Tilemap.Extras.Editor.csproj" />
   <Project Path="Unity.2D.Animation.Runtime.csproj" />
