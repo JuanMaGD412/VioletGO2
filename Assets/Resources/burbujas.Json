@@ -1,0 +1,14 @@
+{
+    "etapas": [
+      {
+        "burbujas": ["Hola", "Mundo", "Unity", "Juego", "UI", "Click", "Pop", "Nivel1", "A", "B"]
+      },
+      {
+        "burbujas": ["C", "D", "E", "F", "G", "H", "I", "J", "Nivel2", "Test"]
+      },
+      {
+        "burbujas": ["K", "L", "M", "N", "O", "P", "Q", "R", "Nivel3", "Final"]
+      }
+    ]
+  }
+  
