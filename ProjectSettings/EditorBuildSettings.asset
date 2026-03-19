@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/laberintos/Laberinto_5.unity
     guid: 87eccea3538d38f4e87e8d440825b00b
+  - enabled: 1
+    path: Assets/Scenes/Violenciometro.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/CRUD_preguntas_Laberintos.unity
+    guid: 0c073d27f9d254245817fd6513dadbe9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

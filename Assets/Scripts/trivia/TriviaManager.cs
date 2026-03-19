@@ -16,6 +16,12 @@ public class TriviaManager : MonoBehaviour
     public int numeroLaberinto; // importante asignarlo en Unity
     public TMP_Text textoRangoFinal;
 
+    [Header("Panel Resultado")]
+    public GameObject panelResultado;
+
+    public TMP_Text textoAciertos;
+    public TMP_Text textoFallos;
+    public TMP_Text textoRango;
 
     void Start()
     {
@@ -93,16 +99,35 @@ public class TriviaManager : MonoBehaviour
 
         string nombreRango = RangosData.ObtenerNombreRango(labIndex, rango);
 
+        int fallos = preguntas.Length - respuestasCorrectas;
+
+
         Debug.Log("Aciertos: " + respuestasCorrectas);
         Debug.Log("Rango obtenido: " + nombreRango);
 
-        MostrarResultado(nombreRango);
+        MostrarPanelResultado(respuestasCorrectas, fallos, nombreRango);        
     }
 
-    void MostrarResultado(string nombreRango)
+    void MostrarPanelResultado(int aciertos, int fallos, string rango)
     {
-        textoRangoFinal.text = nombreRango;
+        panelResultado.SetActive(true);
+
+        textoAciertos.text = "Correctas: " + aciertos;
+        textoFallos.text = "Incorrectas: " + fallos;
+
+        string icono = "";
+
+        if (rango.Contains("crítico") || rango.Contains("activo") || rango.Contains("transformación"))
+            icono = "🥇 ";
+        else if (rango.Contains("Analista") || rango.Contains("Identificador") || rango.Contains("Constructor"))
+            icono = "🥈 ";
+        else
+            icono = "🥉 ";
+
+        textoRango.text = "Rango: " + icono + rango;
     }
+
+
 
 
 }

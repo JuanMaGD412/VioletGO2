@@ -19,6 +19,12 @@ public class BubbleManager : MonoBehaviour
         CargarJSON();
         CargarSiguienteGrupo();
     }
+    
+    void Update()
+    {
+        DetectarColisiones();
+    }
+
 
     void CargarJSON()
     {
@@ -75,21 +81,29 @@ public class BubbleManager : MonoBehaviour
 
             nuevaPos = new Vector2(x, y);
 
+            float nuevaBurbujaSize = prefabBurbuja.GetComponent<RectTransform>().rect.width;
+            float radioNueva = nuevaBurbujaSize / 2f;
+
             foreach (var b in burbujasActivas)
             {
                 if (b == null) continue;
 
+                RectTransform rtExistente = b.GetComponent<RectTransform>();
+                float radioExistente = rtExistente.rect.width / 2f;
+
                 float distancia = Vector2.Distance(
-                    b.GetComponent<RectTransform>().anchoredPosition,
+                    rtExistente.anchoredPosition,
                     nuevaPos
                 );
 
-                if (distancia < 160f) // 🔥 ajusta según tamaño real
+                // 🔥 VALIDACIÓN REAL (NO SUPERPOSICIÓN)
+                if (distancia < (radioNueva + radioExistente))
                 {
                     posicionValida = false;
                     break;
                 }
             }
+
 
             intentos++;
 
@@ -150,4 +164,51 @@ public class BubbleManager : MonoBehaviour
             }
         }
     }
+
+    void DetectarColisiones()
+    {
+        for (int i = 0; i < burbujasActivas.Count; i++)
+        {
+            for (int j = i + 1; j < burbujasActivas.Count; j++)
+            {
+                if (burbujasActivas[i] == null || burbujasActivas[j] == null)
+                    continue;
+
+                RectTransform a = burbujasActivas[i].GetComponent<RectTransform>();
+                RectTransform b = burbujasActivas[j].GetComponent<RectTransform>();
+
+                BubblePhysicsUI physA = burbujasActivas[i].GetComponent<BubblePhysicsUI>();
+                BubblePhysicsUI physB = burbujasActivas[j].GetComponent<BubblePhysicsUI>();
+
+                if (physA == null || physB == null) continue;
+
+                float radioA = physA.radio;
+                float radioB = physB.radio;
+
+                float distancia = Vector2.Distance(a.anchoredPosition, b.anchoredPosition);
+
+                if (distancia < radioA + radioB)
+                {
+                    // 🔥 Dirección del choque
+                    Vector2 dir = (a.anchoredPosition - b.anchoredPosition).normalized;
+
+                    // 💨 Intercambiar direcciones (rebote simple)
+                    Vector2 temp = physA.velocidad;
+                    physA.velocidad = physB.velocidad;
+                    physB.velocidad = temp;
+
+                    // 💥 Separarlas (CLAVE para evitar que se peguen)
+                    float overlap = (radioA + radioB) - distancia;
+
+                    a.anchoredPosition += dir * overlap * 0.5f;
+                    b.anchoredPosition -= dir * overlap * 0.5f;
+
+                    // 🫧 EFECTO GEL
+                    physA.Impacto();
+                    physB.Impacto();
+                }
+            }
+        }
+    }
+
 }

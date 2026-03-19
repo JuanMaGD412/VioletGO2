@@ -5,13 +5,15 @@ public class RangoManager : MonoBehaviour
     public static RangoManager Instance;
 
     private bool[] maximoPorLaberinto = new bool[5];
+    private bool[,] rangosObtenidos = new bool[5, 3]; // [laberinto, rango]
 
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // 👈 CLAVE
+            DontDestroyOnLoad(gameObject);
+            CargarProgreso();
         }
         else
         {
@@ -21,38 +23,77 @@ public class RangoManager : MonoBehaviour
 
     public int CalcularRango(int laberintoIndex, int aciertos)
     {
-        // 🥇 Rango máximo
+        int rango = 0;
+
+        // 🥇 Rango máximo con condición
         if (aciertos == 7)
         {
             if (laberintoIndex == 0 || maximoPorLaberinto[laberintoIndex - 1])
             {
                 maximoPorLaberinto[laberintoIndex] = true;
-                return 3;
+                rango = 3;
             }
         }
 
         // 🥈 Rango medio
-        if (aciertos >= 6)
+        if (rango == 0 && aciertos >= 6)
         {
             maximoPorLaberinto[laberintoIndex] = false;
-            return 2;
+            rango = 2;
         }
-
         // 🥉 Rango básico
-        if (aciertos >= 3)
+        else if (rango == 0 && aciertos >= 3)
         {
             maximoPorLaberinto[laberintoIndex] = false;
-            return 1;
+            rango = 1;
+        }
+        else if (rango == 0)
+        {
+            maximoPorLaberinto[laberintoIndex] = false;
         }
 
-        // ❌ Sin rango
-        maximoPorLaberinto[laberintoIndex] = false;
-        return 0;
+        // Guardar logro
+        if (rango > 0)
+        {
+            rangosObtenidos[laberintoIndex, rango - 1] = true;
+            GuardarProgreso();
+        }
+
+        return rango;
     }
 
-    public bool TieneMaximoAnterior(int laberintoIndex)
+    public bool TieneRango(int laberinto, int rango)
     {
-        if (laberintoIndex == 0) return true;
-        return maximoPorLaberinto[laberintoIndex - 1];
+        return rangosObtenidos[laberinto, rango];
+    }
+
+    void GuardarProgreso()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                string key = "L" + i + "R" + j;
+                PlayerPrefs.SetInt(key, rangosObtenidos[i, j] ? 1 : 0);
+            }
+
+            PlayerPrefs.SetInt("MaxL" + i, maximoPorLaberinto[i] ? 1 : 0);
+        }
+
+        PlayerPrefs.Save();
+    }
+
+    void CargarProgreso()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                string key = "L" + i + "R" + j;
+                rangosObtenidos[i, j] = PlayerPrefs.GetInt(key, 0) == 1;
+            }
+
+            maximoPorLaberinto[i] = PlayerPrefs.GetInt("MaxL" + i, 0) == 1;
+        }
     }
 }
