@@ -1,0 +1,2499 @@
+fileFormatVersion: 2
+guid: 0956da40edab9574abbc8fd801ca65e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NARANJA 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0ceb3a42dcb334a92249e93e715c73
+      internalID: -1136297584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 582
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0699be3c13f00c48ba31eff4cb788ef
+      internalID: -1988218709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 594
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baf1ba7ec455b8459d4c1f4028e9212
+      internalID: 190308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 580
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da14f2d903116d14a9cbb7d023e80c15
+      internalID: 1869494913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_4
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 564
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ac4ab25b24492439700caabe2952ab
+      internalID: 1256661686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 564
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a7d3de9cbc88445897929cbce562f7
+      internalID: -1566336555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 564
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293919822e92cd8499bbe3164c987f2c
+      internalID: 769138169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_7
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 552
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b4e1c655f0fb447ae12b57e1287e1d
+      internalID: 851158848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 426
+        width: 192
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb52f543cae504a86a7e065d8494ea
+      internalID: -93341610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_9
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 420
+        width: 266
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1142763def7ffbd4c88b6dd72f6a57d5
+      internalID: -1052786755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 495
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3408aed5170744bbbd123db7d70da5
+      internalID: 1556036660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 509
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757471619e31e434dba53fcebaebed58
+      internalID: 788353872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 429
+        width: 174
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c6cbbbf42e435409727e36b4c2b7b2
+      internalID: 2136856035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_13
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 530
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e010975e3aaf249ae697e93e7bbc02
+      internalID: 279340211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 475
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dfd5fb9c4018f459a15dbe63e0b179
+      internalID: 876943224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f09631bfd3f65344bcaa38c746c6447
+      internalID: -976730388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 423
+        width: 121
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bb4eb4c6511614b8fcbf5800d343b1
+      internalID: 1541891014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 246
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb312bf52b1c3b24bbf607daffa664f3
+      internalID: -12708148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 246
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934b0a4f1458e1f418146df7f6b3421b
+      internalID: -564246594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 258
+        width: 102
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e0c5b4a3b2ae04fa309e5982615926
+      internalID: 43699756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_20
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 370
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d306d2b98e88264a80b0f1c40eb932a
+      internalID: -473234451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 361
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543575890bad1334db8cf3ae946f060d
+      internalID: -910502519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 246
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41c7310ae03af84fb4a04a525171449
+      internalID: -1862136854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_23
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 366
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5276989ddf0e841a36ccc03eb452bc
+      internalID: 2040585355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 348
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881f3d6c00057bb438372aeee1b42d2c
+      internalID: -1318657455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 338
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1894578aecf033d4cad60877f09b55c8
+      internalID: 921137856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_26
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 360
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb769a975cf1f5489192e469c26075c
+      internalID: 1460981778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 336
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ecbcd20b6774f40a803145cb058d5f
+      internalID: -2042157212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_28
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 355
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c48a7266072417418058251b0c86058
+      internalID: 1192468546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_29
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 364
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be405ce87027494aa946ca09a15e97b
+      internalID: -786571545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_30
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 368
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6289ce663729cc746a1db4207b45519d
+      internalID: -1370347676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 246
+        width: 89
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ae720e936e65d499fb5040860c1c50
+      internalID: -787373770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_32
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 345
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f8b1119471ca34ba4faabcfa0ca32d
+      internalID: 597203960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_33
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 348
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661ee69fdbb62542a36f6bc27d0940e
+      internalID: -886430509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_34
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 349
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a352b55bb7af0148b48bdda3147ad8f
+      internalID: 1266171269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_35
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 348
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3333cf0d8c5804fb4ed0a78d784567
+      internalID: -1998658110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_36
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 354
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a5068371c8eee4bb35a0c5879e4fa9
+      internalID: 2060948826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_37
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 330
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80045e518ccc470479979fcbdefe723a
+      internalID: 1251952422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_38
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 327
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baf89776f2889e49a877c0d371b16eb
+      internalID: 759542228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_39
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 324
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b81c6dcedf65dd439302843f6b812d7
+      internalID: -440574061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_40
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 340
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae7eccc188ceb445a2f35dce7cf0e13
+      internalID: -1034145451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_41
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 336
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda33b724e3223e4faedc7489b6d7c3e
+      internalID: 1923456557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_42
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 327
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87428fff54df2441b3e5d2484e894e3
+      internalID: -1158809525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_43
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 336
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d6522ee6fa05b419ae3590c0f9e2de
+      internalID: -45690643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_44
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 337
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3529059ff90f374e8cb844d0b1fcde2
+      internalID: 1402218896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_45
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 317
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391d225e47f0476458b7600e33fe1455
+      internalID: 1076003593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_46
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 314
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c9108a1ac61e42a9f483652011ec3
+      internalID: -2094683772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_47
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 312
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2236055a921608d428b537f36615fd44
+      internalID: -1924277737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_48
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 327
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f37c0692e4bbe4ead6fd140dc58c7a
+      internalID: -1985537258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_49
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 325
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe3b24ff03e5446a37a0b2f5de0551
+      internalID: -2002513761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_50
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 327
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b95de5f68ed0c4458e45b780c4dc164
+      internalID: 1915158137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_51
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 300
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046c83a2ece0ff74ab2b56de8224b8cf
+      internalID: 1729490996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_52
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 270
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea6d3c836515d459c8ee1e04a33b17
+      internalID: 1609017115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_53
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 306
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd42922678a28446be821a87b97ba12
+      internalID: -415936420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_54
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 306
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03b7362ee1d3864292c28c648ad8859
+      internalID: 506851703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_55
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 315
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b2dd0b96be5aa4bbe158a4bda5e621
+      internalID: -801590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_56
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 315
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f5253cfde60244481c828d0add86ff
+      internalID: 1222931649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_57
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 306
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6cc9ff7113eaa4fba8210e536a7fc5
+      internalID: 992244856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_58
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 313
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4531fc209c0c42e4492a43f500cb4ff1
+      internalID: 1479306137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_59
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 315
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9ef47b20adb534d8797414663da09e
+      internalID: 342983505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_60
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 311
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26f1f9d2dea74446a3f398571b346f8
+      internalID: 1192229117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_61
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 312
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6847bd991ff849892be46e846d64d
+      internalID: -1291941647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_62
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 276
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2512b6c0068403d4ea842e31f775f9a4
+      internalID: 802212355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_63
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 305
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6bc2a35a29da947abcd0c3487de452
+      internalID: 124433520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_64
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 288
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54968b053137c724fa37a8e010c2e28f
+      internalID: 472585216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_65
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 262
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840fd0a10a10764fa93601b3915abd6
+      internalID: 1089247708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_66
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 289
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0452cab0da8223548a6e72efffb74b76
+      internalID: -719869998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_67
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 288
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ed6509fb09eac4186047d03d388dd9
+      internalID: 730007723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_68
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 296
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7a0904f8ee63c469e38ba1786da75e
+      internalID: -1970846215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_69
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 282
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00b63f7636f99e41b73ed5308e3f8fc
+      internalID: 883274308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_70
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 266
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a42ca36a1ddfa4b8f93432f1cae560
+      internalID: -141853010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_71
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 282
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60be2eb6d5654346b3bc2c3421e2ffd
+      internalID: 1434582874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_72
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 287
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2742065829ab224449c9817b08d39fb8
+      internalID: 1105840764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_73
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 246
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed46f1b199e5d044ba712495c1761d9f
+      internalID: 1215068420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_74
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 246
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90b8d2e7f405164594df06899334500
+      internalID: -871411618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_75
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 265
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66385b4d40665048a3832c907d0d83f
+      internalID: 932072353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_76
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 260
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f66e59080aace48a58b2356bbeb031
+      internalID: -471428959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_77
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 263
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d79f774d9d63d4cbe5c3c5648ca090
+      internalID: 1984582565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 127
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9147a892c3a828f48a67209240cf0b72
+      internalID: 1627013805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_79
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 174
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf38181d487403640b4e7880de8d4b41
+      internalID: -1064890667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_80
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 126
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e735f048abe6247acbb868c2b6e7e7
+      internalID: 50668161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 144
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8278676bc9e995942b29c120c0c1c17f
+      internalID: -533962318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_82
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 103
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be993093bb4b2546b38e2071471ffcf
+      internalID: 1077138396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_83
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 144
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494b39188b9bf7c4da1db8a1a99facc4
+      internalID: 629021751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_84
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 150
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f8f583da5f6344ba292f9592ec777
+      internalID: -20326153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_85
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 30
+        width: 138
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785dfb722689cf140b0fe023ddb777c4
+      internalID: -804763764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_86
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 137
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50cff3fbb393ec4ba03f99ed0e9638c
+      internalID: -1007887734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 108
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97527092a3228cd42b4d0409baf3f348
+      internalID: -1191746426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_88
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ad81f8ce8250c4a96cdff7dfa22bd0
+      internalID: 1886293887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_89
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 126
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc82092c54462f439208c282afb64c0
+      internalID: 281549838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_90
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 104
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d928b72b7c02e479a96bdfbb3cba2c
+      internalID: -1401738480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_91
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 108
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffdf7dfbbb324840937bc44aca9e59b
+      internalID: -655403552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_92
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 90
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe3c91f633995d408f84a6eb59981a2
+      internalID: -845548714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_93
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 36
+        width: 231
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f60758ad002604aae6be4be04b4c32
+      internalID: 873288802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_94
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 78
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ff193e3a773ec48b2041d7f36a725a
+      internalID: -131578379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_95
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 96
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9065a2cc704964418ee50986cd88f62
+      internalID: -1928806778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_96
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 81
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbfdac4af9c09c40b6794707dcc6773
+      internalID: 1776072818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_97
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 78
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aacae7a64b1c4f4bb41e44146941ee3
+      internalID: 1711519855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_98
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 42
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dd59fbe85f09f4c9a1a4464a64ee21
+      internalID: 903896827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_99
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 54
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6f0416cc07e6c468aaa3e70f64fe23
+      internalID: 786059939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_100
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 66
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8735f87ccf3c3274c9c1ca86686a67be
+      internalID: 2087858670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_101
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 30
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fd7e9a00eb3b34f9cdf301af424060
+      internalID: -1302328363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NARANJA 1_102
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 29
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf13f7688cfb874e88573d8d248993f
+      internalID: -1289963097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e599f01dcc9fe544caac560d590d13c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NARANJA 1_0: -1136297584
+      NARANJA 1_1: -1988218709
+      NARANJA 1_10: 1556036660
+      NARANJA 1_100: 2087858670
+      NARANJA 1_101: -1302328363
+      NARANJA 1_102: -1289963097
+      NARANJA 1_11: 788353872
+      NARANJA 1_12: 2136856035
+      NARANJA 1_13: 279340211
+      NARANJA 1_14: 876943224
+      NARANJA 1_15: -976730388
+      NARANJA 1_16: 1541891014
+      NARANJA 1_17: -12708148
+      NARANJA 1_18: -564246594
+      NARANJA 1_19: 43699756
+      NARANJA 1_2: 190308
+      NARANJA 1_20: -473234451
+      NARANJA 1_21: -910502519
+      NARANJA 1_22: -1862136854
+      NARANJA 1_23: 2040585355
+      NARANJA 1_24: -1318657455
+      NARANJA 1_25: 921137856
+      NARANJA 1_26: 1460981778
+      NARANJA 1_27: -2042157212
+      NARANJA 1_28: 1192468546
+      NARANJA 1_29: -786571545
+      NARANJA 1_3: 1869494913
+      NARANJA 1_30: -1370347676
+      NARANJA 1_31: -787373770
+      NARANJA 1_32: 597203960
+      NARANJA 1_33: -886430509
+      NARANJA 1_34: 1266171269
+      NARANJA 1_35: -1998658110
+      NARANJA 1_36: 2060948826
+      NARANJA 1_37: 1251952422
+      NARANJA 1_38: 759542228
+      NARANJA 1_39: -440574061
+      NARANJA 1_4: 1256661686
+      NARANJA 1_40: -1034145451
+      NARANJA 1_41: 1923456557
+      NARANJA 1_42: -1158809525
+      NARANJA 1_43: -45690643
+      NARANJA 1_44: 1402218896
+      NARANJA 1_45: 1076003593
+      NARANJA 1_46: -2094683772
+      NARANJA 1_47: -1924277737
+      NARANJA 1_48: -1985537258
+      NARANJA 1_49: -2002513761
+      NARANJA 1_5: -1566336555
+      NARANJA 1_50: 1915158137
+      NARANJA 1_51: 1729490996
+      NARANJA 1_52: 1609017115
+      NARANJA 1_53: -415936420
+      NARANJA 1_54: 506851703
+      NARANJA 1_55: -801590
+      NARANJA 1_56: 1222931649
+      NARANJA 1_57: 992244856
+      NARANJA 1_58: 1479306137
+      NARANJA 1_59: 342983505
+      NARANJA 1_6: 769138169
+      NARANJA 1_60: 1192229117
+      NARANJA 1_61: -1291941647
+      NARANJA 1_62: 802212355
+      NARANJA 1_63: 124433520
+      NARANJA 1_64: 472585216
+      NARANJA 1_65: 1089247708
+      NARANJA 1_66: -719869998
+      NARANJA 1_67: 730007723
+      NARANJA 1_68: -1970846215
+      NARANJA 1_69: 883274308
+      NARANJA 1_7: 851158848
+      NARANJA 1_70: -141853010
+      NARANJA 1_71: 1434582874
+      NARANJA 1_72: 1105840764
+      NARANJA 1_73: 1215068420
+      NARANJA 1_74: -871411618
+      NARANJA 1_75: 932072353
+      NARANJA 1_76: -471428959
+      NARANJA 1_77: 1984582565
+      NARANJA 1_78: 1627013805
+      NARANJA 1_79: -1064890667
+      NARANJA 1_8: -93341610
+      NARANJA 1_80: 50668161
+      NARANJA 1_81: -533962318
+      NARANJA 1_82: 1077138396
+      NARANJA 1_83: 629021751
+      NARANJA 1_84: -20326153
+      NARANJA 1_85: -804763764
+      NARANJA 1_86: -1007887734
+      NARANJA 1_87: -1191746426
+      NARANJA 1_88: 1886293887
+      NARANJA 1_89: 281549838
+      NARANJA 1_9: -1052786755
+      NARANJA 1_90: -1401738480
+      NARANJA 1_91: -655403552
+      NARANJA 1_92: -845548714
+      NARANJA 1_93: 873288802
+      NARANJA 1_94: -131578379
+      NARANJA 1_95: -1928806778
+      NARANJA 1_96: 1776072818
+      NARANJA 1_97: 1711519855
+      NARANJA 1_98: 903896827
+      NARANJA 1_99: 786059939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

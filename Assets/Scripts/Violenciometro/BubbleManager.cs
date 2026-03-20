@@ -11,6 +11,8 @@ public class BubbleManager : MonoBehaviour
     private JuegoData data;
     private int etapaActual = 0;
     private int indiceBurbuja = 0;
+    [Header("Sprites por etapa")]
+    public Sprite[] spritesPorEtapa;
 
     private List<GameObject> burbujasActivas = new List<GameObject>();
 
@@ -45,20 +47,25 @@ public class BubbleManager : MonoBehaviour
     }
 
     void CrearBurbuja(string palabra)
+{
+    GameObject nueva = Instantiate(prefabBurbuja, contenedor);
+
+    BubbleUI script = nueva.GetComponent<BubbleUI>();
+    script.contenido = palabra;
+    script.manager = this;
+
+    // 🎨 CAMBIAR SPRITE SEGÚN ETAPA
+    UnityEngine.UI.Image img = nueva.GetComponent<UnityEngine.UI.Image>();
+    if (img != null && etapaActual < spritesPorEtapa.Length)
     {
-        GameObject nueva = Instantiate(prefabBurbuja, contenedor);
-
-        BubbleUI script = nueva.GetComponent<BubbleUI>();
-        script.contenido = palabra;
-        script.manager = this;
-
-        // 🎯 POSICIÓN ALEATORIA EN UI
-        RectTransform rt = nueva.GetComponent<RectTransform>();
-
-        rt.anchoredPosition = GenerarPosicion();
-
-        burbujasActivas.Add(nueva);
+        img.sprite = spritesPorEtapa[etapaActual];
     }
+
+    RectTransform rt = nueva.GetComponent<RectTransform>();
+    rt.anchoredPosition = GenerarPosicion();
+
+    burbujasActivas.Add(nueva);
+}
 
     Vector2 GenerarPosicion()
     {

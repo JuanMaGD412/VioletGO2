@@ -1,0 +1,2476 @@
+fileFormatVersion: 2
+guid: 911e835a38c168e4f83814dc46b56b18
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AMARILLA 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941ebd74bdb5474e9a290aa66312517
+      internalID: -851536738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 579
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b95e8bb101f9524e8676f3d62796363
+      internalID: 132932160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 588
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2559ea2c6de479f499eb402c8aa50e85
+      internalID: 1615075193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 576
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3a0018ad30736439cdf5028c44e800
+      internalID: 1560987888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 565
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397299407e554bc428c56f3f6748df2a
+      internalID: 517585500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_5
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 564
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d0d9a934a15b488cc45b52de8f234
+      internalID: -1186361616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 562
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5d250f5ad2cf240b65586f9a499182
+      internalID: -1567625729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_7
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 552
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf89dc20906c7c45bb046225324b7fc
+      internalID: -758270219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_8
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 426
+        width: 181
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e1d6c8da48cd449a74934e6c3af27
+      internalID: -1794057240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_9
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 420
+        width: 272
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5033b77142b9624784f20c00243262c
+      internalID: 2107265715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 494
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4883f263eab754448770c4a592e16aa
+      internalID: -63192316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 507
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d371a11c6348bd24fa1a0561e409162c
+      internalID: 1752011026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 426
+        width: 168
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29d5dc3c1523d743b278790cc86fbbb
+      internalID: 1095211446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_13
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 528
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e835298b2bbbb84d86be6666b1a618f
+      internalID: -846762262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 474
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e036518ab6213ad41b9411d423c08bf3
+      internalID: 44073306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 426
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec81526aafad00b40a90a3f0010065e7
+      internalID: -1304702308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_16
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 420
+        width: 124
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9270b4523d292145932bc4af7c4844e
+      internalID: 1695724174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 246
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4bb827fe2458d49a48dc76bbb60494
+      internalID: -645735151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 246
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2240084bebb1d9438e2c1c83b2d5e66
+      internalID: 2058821985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 265
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e1366a4bd75e140802815464fc27a0
+      internalID: 479313332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 352
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69410623f497e2044ac60fc697d0090a
+      internalID: -1747284324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_21
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 370
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98135b586d30d25439d5071458ac476e
+      internalID: -24704063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 250
+        width: 120
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb95094d9a440e44a0dd2d332f9a2a7
+      internalID: -789716065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_23
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 366
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed9a7082a845714da0133546e52c6be
+      internalID: -1647432593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_24
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 350
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef26baecc336b346aa50d837d427a0a
+      internalID: -501506508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_25
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 338
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ea584ed6c55184481be23f28922a80
+      internalID: -117102676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_26
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 361
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2882e0dde8b5dc4285fe846c59a0069
+      internalID: 305080015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_27
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 338
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31f3efcbbb7ba409d5b037ba338277
+      internalID: 910078250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_28
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 355
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8bf5b446e728c4ba299ec70d892a94
+      internalID: -1773309438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_29
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 360
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93594b633ffe6a24e8f0d8d669f0f4c7
+      internalID: -823266746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_30
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 366
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4e4e162ddfe64faec4b43c59a76ab
+      internalID: 1091610043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_31
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 360
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b8e96555e39c4896040721ef3e5da
+      internalID: 1202199720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_32
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 348
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a877e27a8303e42b590c454fc1d70d
+      internalID: -1652135646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_33
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 352
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567c2bb7bfcec094d8bcd407c34026b8
+      internalID: -1440147153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_34
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 348
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea530b755f7d5be41808f88a9ddee399
+      internalID: -664490025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_35
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 358
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452350e7d847f4949821e36f7131ab8c
+      internalID: -223640293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_36
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 246
+        width: 88
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c30e4bbabca7149bac4caeffd27b7f
+      internalID: 1680145340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_37
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 332
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd2cfc9f4c965c46acf485afbb77974
+      internalID: -981314517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_38
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 346
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7818ad04049f9ee4f84821a6c7b98196
+      internalID: -1461221524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_39
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 340
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176d98d82d414a7489bafa554416934b
+      internalID: -1460492741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_40
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 337
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e6836706de230499387ffeeb389cc8
+      internalID: -1867178632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_41
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 324
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9e790c4b4091a4c9f553682ed017ce
+      internalID: 1131160058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_42
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 323
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0882eebf7064f134bad459d82c34be90
+      internalID: 1672322034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_43
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 336
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c97911aece1b3846ac9e5459b2945f5
+      internalID: 795799401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_44
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 326
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae9478fabed2d841839bf217ffad4fe
+      internalID: -708080110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_45
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 337
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e74c812f55a1c047b3b3db58e1a689f
+      internalID: -1659998716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_46
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 282
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29c89cb57195f141a0d44f21f6e86a0
+      internalID: 1781463352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_47
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 312
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e432abdb1de21346b1237cdf39289d6
+      internalID: -1624855606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_48
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 325
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e0510920c29d642a6739ed2051fa07
+      internalID: -1534397269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_49
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 328
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ee7d30326bca5438174388629c5a8c
+      internalID: 251348773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_50
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 306
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288c336263e92af42a1894bba6be9659
+      internalID: -1549401620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_51
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 274
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c0ed31cc6602240a4447986ed5d6db
+      internalID: 2105139543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_52
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 306
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1cbbc664aa17f49a8317b364f6cb70
+      internalID: -1438410491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_53
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 310
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84858b5a19dca53468121ad1a75aa46e
+      internalID: 372431485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_54
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 315
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877b4c64705795e4b9e2a02a9fea4165
+      internalID: -262904303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_55
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 316
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c653d4ffb8552264299fe88d85692fc7
+      internalID: -1504011235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_56
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 311
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8435b1c051e7034380f8ab2e0fb965c
+      internalID: 182449223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_57
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 312
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1dab47ebd910946a85a4f41125c250
+      internalID: 614682666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_58
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 312
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f438583aa63fe941ae14707ab474a50
+      internalID: -119459603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_59
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 312
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400a75c7593ef944b8b0f55942375562
+      internalID: -24574774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_60
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 312
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfd71ccb3fcee8419aac25d53ba1be3
+      internalID: 238801999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_61
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 305
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61aaad552274a9478ee45aa0bfb6d93
+      internalID: 620146524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_62
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 264
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b97e1a27890f0245a9d66ce70da2331
+      internalID: 529093336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_63
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 291
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8ca4a04f745a640a62943503b8f7dc
+      internalID: -801559871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_64
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 296
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1b0a7069aea9449b2ebb65febb59c1
+      internalID: 1500763344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_65
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 288
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fddb44cb3345f243981742980464c17
+      internalID: -361552820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_66
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 288
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87500f703ab14e478571681308b6c81
+      internalID: 1471217962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_67
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 297
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2d7bc3dd7539b4e9972c2ccc180a7a
+      internalID: -1425003158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_68
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 289
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c00b022c245c034a8f495c243cf8577
+      internalID: -337547184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_69
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 264
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cf7aefa5de4474a9bda106ead5a9f7
+      internalID: 1158557979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_70
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 285
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f4bd937fb08bf4c8fb1280043a262d
+      internalID: -953937129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_71
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 288
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa494b7e18093f4085686eb600643b1
+      internalID: -1266763428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_72
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 253
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cc1f4f9c48db340b2678dd2e703420
+      internalID: 1574304657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_73
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 246
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7e4bc8005d07047b9c5794a6c38d27
+      internalID: -1346316130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_74
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 266
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f9c2db7d39c1243a77367e0e3e8716
+      internalID: 398329679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_75
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 260
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ede9aee80b32574b8e68afd72f7ecef
+      internalID: -1416490518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_76
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 264
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c465a52056f5c44a9dfc06c8e0e0dd
+      internalID: 990409829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_77
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 133
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22da89a8d6a048b49abb44873d7005ec
+      internalID: -1854455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_78
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 176
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1366ebf76f9be4494222ce9a6811a7
+      internalID: -1306260116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 126
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86704ba59e8563242865c9274db6d96c
+      internalID: 348179511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_80
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 150
+        width: 101
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a90e91781b2e4db14fbb870889e26
+      internalID: 1644650779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_81
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 144
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c397ad97c37c2194aa9820abcb7b7047
+      internalID: 1438456750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_82
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 150
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609493d0868945949a8e975d71b96bed
+      internalID: 124466444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_83
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 139
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fba5ba3d5779cc43a893c6af5e1ab14
+      internalID: 2137123846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3e42cc9c3c6c7428d8183f9fefd10d
+      internalID: -451422936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_85
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 114
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f108f2eb0ff174841b6a51b4c8f79e86
+      internalID: 1432208562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_86
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 113
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7509a9fb77b631949a3e66a219ac2343
+      internalID: 1669663376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_87
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 108
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0288002f30d3a8345be44f540bd20f7b
+      internalID: -1655006342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_88
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 128
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf04a993285a249a8441e0f471fc37
+      internalID: -1692474840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_89
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 109
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa99f823d0a2ac4d8014fd47b0c3b98
+      internalID: 933881961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_90
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 114
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2c7954716921648afbf7d147e89968
+      internalID: 674914714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_91
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 90
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f1c134efdc77546832067b27163eb7
+      internalID: -1320493032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_92
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 36
+        width: 135
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852ad6ef57f2ea947aeba074f0e73d17
+      internalID: -1362797255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_93
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 42
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5255f7082379b84ab6b09a6a8169266
+      internalID: -2011141455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_94
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 36
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5879ae6b7d590d43885a48599225453
+      internalID: 300493131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_95
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 87
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a11b858f20a924eaf01a2de6aca5cd
+      internalID: 1494579021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_96
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 100
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0794edae1222723488a36eeefbb7feb3
+      internalID: -634114450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_97
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 84
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d5b4b04cf23147bd652409a87290f
+      internalID: -1340638849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_98
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 33
+        width: 101
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b372a9ec6f9544a6b1a2b216cf1d5
+      internalID: -2013605557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_99
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 72
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f4cf43bd417184686dd99318ae8f89
+      internalID: -433108320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_100
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 59
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f64a6bd492f7144af0ead5dcad3202
+      internalID: -1367447883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AMARILLA 1_101
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 29
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc31c1e74ea0224fa9ca520cf33313c
+      internalID: 1347747572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4a3db0da33e016488c5e6a62c657f14
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AMARILLA 1_0: -851536738
+      AMARILLA 1_1: 132932160
+      AMARILLA 1_10: -63192316
+      AMARILLA 1_100: -1367447883
+      AMARILLA 1_101: 1347747572
+      AMARILLA 1_11: 1752011026
+      AMARILLA 1_12: 1095211446
+      AMARILLA 1_13: -846762262
+      AMARILLA 1_14: 44073306
+      AMARILLA 1_15: -1304702308
+      AMARILLA 1_16: 1695724174
+      AMARILLA 1_17: -645735151
+      AMARILLA 1_18: 2058821985
+      AMARILLA 1_19: 479313332
+      AMARILLA 1_2: 1615075193
+      AMARILLA 1_20: -1747284324
+      AMARILLA 1_21: -24704063
+      AMARILLA 1_22: -789716065
+      AMARILLA 1_23: -1647432593
+      AMARILLA 1_24: -501506508
+      AMARILLA 1_25: -117102676
+      AMARILLA 1_26: 305080015
+      AMARILLA 1_27: 910078250
+      AMARILLA 1_28: -1773309438
+      AMARILLA 1_29: -823266746
+      AMARILLA 1_3: 1560987888
+      AMARILLA 1_30: 1091610043
+      AMARILLA 1_31: 1202199720
+      AMARILLA 1_32: -1652135646
+      AMARILLA 1_33: -1440147153
+      AMARILLA 1_34: -664490025
+      AMARILLA 1_35: -223640293
+      AMARILLA 1_36: 1680145340
+      AMARILLA 1_37: -981314517
+      AMARILLA 1_38: -1461221524
+      AMARILLA 1_39: -1460492741
+      AMARILLA 1_4: 517585500
+      AMARILLA 1_40: -1867178632
+      AMARILLA 1_41: 1131160058
+      AMARILLA 1_42: 1672322034
+      AMARILLA 1_43: 795799401
+      AMARILLA 1_44: -708080110
+      AMARILLA 1_45: -1659998716
+      AMARILLA 1_46: 1781463352
+      AMARILLA 1_47: -1624855606
+      AMARILLA 1_48: -1534397269
+      AMARILLA 1_49: 251348773
+      AMARILLA 1_5: -1186361616
+      AMARILLA 1_50: -1549401620
+      AMARILLA 1_51: 2105139543
+      AMARILLA 1_52: -1438410491
+      AMARILLA 1_53: 372431485
+      AMARILLA 1_54: -262904303
+      AMARILLA 1_55: -1504011235
+      AMARILLA 1_56: 182449223
+      AMARILLA 1_57: 614682666
+      AMARILLA 1_58: -119459603
+      AMARILLA 1_59: -24574774
+      AMARILLA 1_6: -1567625729
+      AMARILLA 1_60: 238801999
+      AMARILLA 1_61: 620146524
+      AMARILLA 1_62: 529093336
+      AMARILLA 1_63: -801559871
+      AMARILLA 1_64: 1500763344
+      AMARILLA 1_65: -361552820
+      AMARILLA 1_66: 1471217962
+      AMARILLA 1_67: -1425003158
+      AMARILLA 1_68: -337547184
+      AMARILLA 1_69: 1158557979
+      AMARILLA 1_7: -758270219
+      AMARILLA 1_70: -953937129
+      AMARILLA 1_71: -1266763428
+      AMARILLA 1_72: 1574304657
+      AMARILLA 1_73: -1346316130
+      AMARILLA 1_74: 398329679
+      AMARILLA 1_75: -1416490518
+      AMARILLA 1_76: 990409829
+      AMARILLA 1_77: -1854455
+      AMARILLA 1_78: -1306260116
+      AMARILLA 1_79: 348179511
+      AMARILLA 1_8: -1794057240
+      AMARILLA 1_80: 1644650779
+      AMARILLA 1_81: 1438456750
+      AMARILLA 1_82: 124466444
+      AMARILLA 1_83: 2137123846
+      AMARILLA 1_84: -451422936
+      AMARILLA 1_85: 1432208562
+      AMARILLA 1_86: 1669663376
+      AMARILLA 1_87: -1655006342
+      AMARILLA 1_88: -1692474840
+      AMARILLA 1_89: 933881961
+      AMARILLA 1_9: 2107265715
+      AMARILLA 1_90: 674914714
+      AMARILLA 1_91: -1320493032
+      AMARILLA 1_92: -1362797255
+      AMARILLA 1_93: -2011141455
+      AMARILLA 1_94: 300493131
+      AMARILLA 1_95: 1494579021
+      AMARILLA 1_96: -634114450
+      AMARILLA 1_97: -1340638849
+      AMARILLA 1_98: -2013605557
+      AMARILLA 1_99: -433108320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

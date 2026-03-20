@@ -1,14 +1,16 @@
 {
-    "etapas": [
-      {
-        "burbujas": ["Hola", "Mundo", "Unity", "Juego", "UI", "Click", "Pop", "Nivel1", "A", "B"]
-      },
-      {
-        "burbujas": ["C", "D", "E", "F", "G", "H", "I", "J", "Nivel2", "Test"]
-      },
-      {
-        "burbujas": ["K", "L", "M", "N", "O", "P", "Q", "R", "Nivel3", "Final"]
-      }
-    ]
-  }
-  
+  "etapas": [
+    {
+      "spriteIndex": 0,
+      "burbujas": ["Te han celado", "Te han humillado", "Te han chantajeado", "Te han hecho bromas hirientes", "Has recibido piropos ofensivos", "Te han intimidado", "Has recibido críticas sobre tu vestir o maquillar", "Te  han hecho sentir culpa", "Te han acechado o stalkeado", "Te han hecho la “ley del hielo”", "Te han engañado y mentido"]
+    },
+    {
+      "spriteIndex": 1,
+      "burbujas": ["Has recibido críticas sobre tu vestir o maquillar", "Sientes control sobre  tus amistades o relaciones", "Te han destruido objetos para agredirte", "Has recibido golpes “jugando”", "Has recibido contacto físico sin consentimiento. ", "Te han empujado o pellizcado", "Te han agredido verbalmente"]
+    },
+    {
+      "spriteIndex": 2,
+      "burbujas": ["Te han encerrado o aislado", "Has recibido sextorción", "Te han forzado a una relación sexual", "Te han forzado a una relación sexual", "Te han amenazado de muerte", "Te han dicho que si no haces lo que quieren se suicidan"]
+    }
+  ]
+}

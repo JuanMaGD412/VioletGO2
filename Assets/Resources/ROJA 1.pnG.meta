@@ -1,0 +1,2338 @@
+fileFormatVersion: 2
+guid: 16d2ba3fc363ace4bbbf369811320c2b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROJA 1_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 594
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f6eabaed6fd5143924ddf72bf7a2ae
+      internalID: -228564395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 583
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b0f99d497016346ab5dd9fe2bd4d39
+      internalID: -385023799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 596
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa03b482d6522724eb8250360ff4303c
+      internalID: -868712296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 582
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc156ecace60164d87f74d3e5eca570
+      internalID: 1854842326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_4
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 564
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493ee2fc65034cb4197354c908060b5d
+      internalID: 649955839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 570
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004bc04bba8968e488f088b1ecfbfbca
+      internalID: -233346251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 564
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b2bcc61401bb45a2865c5b6028100
+      internalID: 349859036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 557
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0dd29ae0a7a0c4bb763cb61a6fcca6
+      internalID: 2003013860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 426
+        width: 190
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43984ad12c91fc6489dc6a6ede997218
+      internalID: 1139698899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_9
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 420
+        width: 254
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51955e47d42e264a9655551ba424051
+      internalID: -1803539017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 492
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d3afdca4a0db6469485e7d6979ca95
+      internalID: 849741078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 510
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465c1633267703e42a3f12c4f48d2ec2
+      internalID: 1718564067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 430
+        width: 170
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d369503124265b4f934a6e6a0c468fe
+      internalID: -1914989371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_13
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 528
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be33e85980e75e04ca9a7bf380c47a16
+      internalID: -579695453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 475
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81174c9263d8b6342b5d4ced00eeda1d
+      internalID: -524099276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 432
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129d91e71a995c44fafd79d1ca99c2c9
+      internalID: 1529086779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 420
+        width: 122
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95608b1b34936fb489663bdefa02e792
+      internalID: 1436480945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 245
+        width: 150
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e99408e3cb9b745a05d01753dbc57e
+      internalID: 1969015083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 246
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d61eebd7738cf3478c5b50cdb94a618
+      internalID: 1006359590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 246
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45941891b519ea5459f4712b3cab8c10
+      internalID: 1281545741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 246
+        width: 122
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3393773760c8ffb469ec24c4215fba07
+      internalID: -1921666083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_21
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 366
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68861739611929649b0b17b1ef37055b
+      internalID: 1762284339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_22
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 351
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050c6011cda3a87459b807ab4ed5b934
+      internalID: -1018324655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_23
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 338
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238fde3b3968d00409a7c27e90efc04e
+      internalID: 2000031960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_24
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 360
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d1890c8b1c2db458b5f0a1be336e82
+      internalID: -1704228105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_25
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 336
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e2acd878770434d85262572d9e4e5b
+      internalID: 1887901581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_26
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 355
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7771d80b31ad84b82f41582e88a364
+      internalID: -1118768172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_27
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 360
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed343820eab21140bc11b21b560d2f5
+      internalID: -1583146832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_28
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 367
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf367a3f93917764b87be7244435a73a
+      internalID: 1643624054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_29
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 349
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5689b64ee15f7449ee27429b2ed0f3
+      internalID: -33253672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_30
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 348
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7a209479c0ff04ba0cfe3954166d2b
+      internalID: 482392025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_31
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 358
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c0b1b670a9104fa22824583765776
+      internalID: -1935509355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_32
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 330
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f85d9792e24252469844ee6348fc014
+      internalID: 1937698922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_33
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 345
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6581cccbf5a4ed4faba779edadd72ec
+      internalID: -919379386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_34
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 338
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3059be997274ad42b67eaa4c677d526
+      internalID: 711435019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_35
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 331
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c5b3796ae32e4f8f84dd9a9c210e7
+      internalID: -2038104665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 348
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78990445270ce14e81265d12b69b3b6
+      internalID: 1009621607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_37
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 312
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a1b724b18b7ca488e4dab3d40fcaf8
+      internalID: -1387136279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_38
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 325
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5654e14f8f55948a84af4cbd94e891
+      internalID: 723654688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_39
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 324
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e617b04859ad4654eafc6efba3baa9c1
+      internalID: -293102385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_40
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 325
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e504030214885fb45aabbac12c3d5b7c
+      internalID: 1817564708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_41
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 336
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b273891dcb92e494da7ba5f61427f03e
+      internalID: 661131859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_42
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 337
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828c6e3ef75c0844b9131da472bbab3d
+      internalID: -1820084745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_43
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 316
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807ffdbc0a5f1ae4a848f68b423532d6
+      internalID: 628476958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_44
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 312
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cd1fe1731c8d3439933f67ae3273cb
+      internalID: 147111427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_45
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 325
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997aae92e73c358439ace8e43264a06b
+      internalID: -2107348001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_46
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 326
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf08da7151939649b462404dbd85d85
+      internalID: -19335066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_47
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 304
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cac04410a2713348910d19a16a21dc8
+      internalID: -140399162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_48
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 260
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e88c3ba55a13849bc437ec93f2e883
+      internalID: -1085763816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_49
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 306
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3d3b5a93383f64f9085228f462d87f
+      internalID: -1583712405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_50
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 314
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269cc3fd8a7512c4798322509dedd8b0
+      internalID: 309956032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_51
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 314
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bad7e9a0b0e364cafba4f48f09710b
+      internalID: 1474741671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_52
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 309
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a114302cd23e744083069d54ff12474
+      internalID: 940313803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_53
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 312
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef448e32ec771d4394de4fb3b8665c1
+      internalID: 927880919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_54
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 314
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b055c495495fe4eb7e559fd3376f4f
+      internalID: 1980661314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_55
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 309
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5862a9bf863c20e4182d1ec686218bbb
+      internalID: 1426615660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_56
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 311
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed16e63afa3b6646813b2da07b2b054
+      internalID: 2034303980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_57
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 276
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5eabde440d1164d8595e18487df905
+      internalID: 1463212727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_58
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 307
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7dd04a1ddfa054eaa5f0ecdea0866d
+      internalID: 1171186303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_59
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 290
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eebb9f9c27d7842b64b908ee47f5bb
+      internalID: -1255822691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_60
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 295
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c165c5eef87a5f43bd700a0f74207d7
+      internalID: -499467349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_61
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 288
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8148414557964419d19a70acace590
+      internalID: -2044786713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_62
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 290
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47175cbaf411da84eb73190ee092ec50
+      internalID: 1099498707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_63
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 294
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e42d6355d46b474ab0b426f6cc3a7fd
+      internalID: 1604592692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_64
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 282
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df66cfdda855947ae9492e46c1bf5c
+      internalID: 604615853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_65
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 264
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e51aaee0187a45ad6e8e88c1f9368
+      internalID: 570266650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_66
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 283
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78dd39cabc6bc94bb5b079bbe577d4e
+      internalID: -585271843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_67
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 286
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aa85559f291644fb04d5bda1dc3fdf
+      internalID: -559684787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_68
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 247
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a277006c679f3a847a6ee83df0bc6e8e
+      internalID: -10552824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_69
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 241
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2ff4625c71b8f4ba5386d31da86e8f
+      internalID: -175744066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_70
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 264
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870bd24b9ef79b94ba876e22c654b1cc
+      internalID: 1959890290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_71
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 259
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da2def35cb088b44af784e7eb535dc5
+      internalID: 1971859742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_72
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 261
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8742a68ac1ea78847a8fb8c7304c43f7
+      internalID: -334795276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_73
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 114
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08226c4e1f537a40b1019b8ededb1d6
+      internalID: -933652366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_74
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 144
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde95a69432f014f95edd6321bbacfd
+      internalID: 1730581792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_75
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 102
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e547b48d390d349bca850fb2320ac6
+      internalID: 1129311287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_76
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 123
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bcf9bd645e4fd4fa46b03dfc114072
+      internalID: 503094664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_77
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 141
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5351faf17e96c7e47afd155d633983ec
+      internalID: 771405459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_78
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 147
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6669d4708936557479ed99f731910105
+      internalID: 2122613766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_79
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 30
+        width: 144
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a2b4dd85dac794a8482ac39995cf3c
+      internalID: -1315311912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_80
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 29
+        width: 258
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a032003cdf5fd0468aefb51336caf7a
+      internalID: 473812389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_81
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 138
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415d9bd8c75604842baebe1fa5d09b6d
+      internalID: 1860483576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 126
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44a83679edbcb40be80f2e37452639
+      internalID: 791822143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_83
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 108
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6c3793c86dc484fb48366452a87b79
+      internalID: 916257723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_84
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 102
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcf53314099d804bb04dcf6859fb815
+      internalID: 1604165344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_85
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 104
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b086abdcf938440a70bc0cee598d88
+      internalID: -1064885013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_86
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 108
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aac9531aba840842bcc163a5e3f2729
+      internalID: -984525064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_87
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 84
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130bea00eec8eb3409e215a3ceba8ca4
+      internalID: 1824120791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_88
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 78
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33023ce43a9c2d54085e371519e9873e
+      internalID: -243416891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 90
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9890f609e4f9af846bfb4d35e63f34b8
+      internalID: -372672805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_90
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 78
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb405dd332c0cc54faa90d7297aacd8c
+      internalID: 1659962735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_91
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 79
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c205ebe33e3d974aadae8f0ea8c7f1c
+      internalID: 1282988018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_92
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 65
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e895a1da0e98449459f3170b26276a94
+      internalID: 1847345709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_93
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 36
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564cbcf15ee094b4aa2295c3ef4a27ce
+      internalID: -391617096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_94
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 48
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17858037a7c8074392a5b1fded7de60
+      internalID: -1834679454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROJA 1_95
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 26
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46521302350beff4bbc20a9bfa6b0e2c
+      internalID: 371560591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 65fbfe18c70061d48a442da90a803889
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROJA 1_0: -228564395
+      ROJA 1_1: -385023799
+      ROJA 1_10: 849741078
+      ROJA 1_11: 1718564067
+      ROJA 1_12: -1914989371
+      ROJA 1_13: -579695453
+      ROJA 1_14: -524099276
+      ROJA 1_15: 1529086779
+      ROJA 1_16: 1436480945
+      ROJA 1_17: 1969015083
+      ROJA 1_18: 1006359590
+      ROJA 1_19: 1281545741
+      ROJA 1_2: -868712296
+      ROJA 1_20: -1921666083
+      ROJA 1_21: 1762284339
+      ROJA 1_22: -1018324655
+      ROJA 1_23: 2000031960
+      ROJA 1_24: -1704228105
+      ROJA 1_25: 1887901581
+      ROJA 1_26: -1118768172
+      ROJA 1_27: -1583146832
+      ROJA 1_28: 1643624054
+      ROJA 1_29: -33253672
+      ROJA 1_3: 1854842326
+      ROJA 1_30: 482392025
+      ROJA 1_31: -1935509355
+      ROJA 1_32: 1937698922
+      ROJA 1_33: -919379386
+      ROJA 1_34: 711435019
+      ROJA 1_35: -2038104665
+      ROJA 1_36: 1009621607
+      ROJA 1_37: -1387136279
+      ROJA 1_38: 723654688
+      ROJA 1_39: -293102385
+      ROJA 1_4: 649955839
+      ROJA 1_40: 1817564708
+      ROJA 1_41: 661131859
+      ROJA 1_42: -1820084745
+      ROJA 1_43: 628476958
+      ROJA 1_44: 147111427
+      ROJA 1_45: -2107348001
+      ROJA 1_46: -19335066
+      ROJA 1_47: -140399162
+      ROJA 1_48: -1085763816
+      ROJA 1_49: -1583712405
+      ROJA 1_5: -233346251
+      ROJA 1_50: 309956032
+      ROJA 1_51: 1474741671
+      ROJA 1_52: 940313803
+      ROJA 1_53: 927880919
+      ROJA 1_54: 1980661314
+      ROJA 1_55: 1426615660
+      ROJA 1_56: 2034303980
+      ROJA 1_57: 1463212727
+      ROJA 1_58: 1171186303
+      ROJA 1_59: -1255822691
+      ROJA 1_6: 349859036
+      ROJA 1_60: -499467349
+      ROJA 1_61: -2044786713
+      ROJA 1_62: 1099498707
+      ROJA 1_63: 1604592692
+      ROJA 1_64: 604615853
+      ROJA 1_65: 570266650
+      ROJA 1_66: -585271843
+      ROJA 1_67: -559684787
+      ROJA 1_68: -10552824
+      ROJA 1_69: -175744066
+      ROJA 1_7: 2003013860
+      ROJA 1_70: 1959890290
+      ROJA 1_71: 1971859742
+      ROJA 1_72: -334795276
+      ROJA 1_73: -933652366
+      ROJA 1_74: 1730581792
+      ROJA 1_75: 1129311287
+      ROJA 1_76: 503094664
+      ROJA 1_77: 771405459
+      ROJA 1_78: 2122613766
+      ROJA 1_79: -1315311912
+      ROJA 1_8: 1139698899
+      ROJA 1_80: 473812389
+      ROJA 1_81: 1860483576
+      ROJA 1_82: 791822143
+      ROJA 1_83: 916257723
+      ROJA 1_84: 1604165344
+      ROJA 1_85: -1064885013
+      ROJA 1_86: -984525064
+      ROJA 1_87: 1824120791
+      ROJA 1_88: -243416891
+      ROJA 1_89: -372672805
+      ROJA 1_9: -1803539017
+      ROJA 1_90: 1659962735
+      ROJA 1_91: 1282988018
+      ROJA 1_92: 1847345709
+      ROJA 1_93: -391617096
+      ROJA 1_94: -1834679454
+      ROJA 1_95: 371560591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
