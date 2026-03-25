@@ -13,14 +13,29 @@ public class BubbleManager : MonoBehaviour
     private int indiceBurbuja = 0;
     [Header("Sprites por etapa")]
     public Sprite[] spritesPorEtapa;
+    private List<int> burbujasReventadasPorEtapa = new List<int>();
+    private int contadorEtapaActual = 0;
+    [Header("UI Resultado")]
+    public GameObject panelResultado;
+    public TMPro.TextMeshProUGUI textoResultado;
+
+
 
     private List<GameObject> burbujasActivas = new List<GameObject>();
 
     void Start()
     {
         CargarJSON();
+
+        // Inicializar contadores por etapa
+        for (int i = 0; i < data.etapas.Count; i++)
+        {
+            burbujasReventadasPorEtapa.Add(0);
+        }
+
         CargarSiguienteGrupo();
     }
+
     
     void Update()
     {
@@ -30,7 +45,7 @@ public class BubbleManager : MonoBehaviour
 
     void CargarJSON()
     {
-        TextAsset json = Resources.Load<TextAsset>("burbujas"); // tu archivo en Resources
+        TextAsset json = Resources.Load<TextAsset>("burbujas"); 
         data = JsonUtility.FromJson<JuegoData>(json.text);
     }
 
@@ -54,7 +69,6 @@ public class BubbleManager : MonoBehaviour
     script.contenido = palabra;
     script.manager = this;
 
-    // 🎨 CAMBIAR SPRITE SEGÚN ETAPA
     UnityEngine.UI.Image img = nueva.GetComponent<UnityEngine.UI.Image>();
     if (img != null && etapaActual < spritesPorEtapa.Length)
     {
@@ -103,7 +117,6 @@ public class BubbleManager : MonoBehaviour
                     nuevaPos
                 );
 
-                // 🔥 VALIDACIÓN REAL (NO SUPERPOSICIÓN)
                 if (distancia < (radioNueva + radioExistente))
                 {
                     posicionValida = false;
@@ -114,34 +127,57 @@ public class BubbleManager : MonoBehaviour
 
             intentos++;
 
-        } while (!posicionValida && intentos < 50); // evita bucle infinito
+        } while (!posicionValida && intentos < 50); 
 
         return nuevaPos;
     }
 
 
 
-    // 🫧 Se llama cuando una burbuja muere
     public void BurbujaReventada(GameObject burbuja)
     {
         burbujasActivas.Remove(burbuja);
 
-        // Crear otra si aún hay
+        // ✅ contar
+        contadorEtapaActual++;
+
         if (indiceBurbuja < data.etapas[etapaActual].burbujas.Count)
         {
             CrearBurbuja(data.etapas[etapaActual].burbujas[indiceBurbuja]);
             indiceBurbuja++;
         }
-        else if (burbujasActivas.Count == 0)
+        else
         {
-            Debug.Log("Etapa completada");
-        }
-    }
+            // ya no hay más burbujas por crear en esta etapa
 
-    // 🔘 BOTÓN
+            // limpiar nulls por seguridad
+            burbujasActivas.RemoveAll(b => b == null);
+
+            if (burbujasActivas.Count == 0)
+            {
+                // guardar resultado de esta etapa
+                burbujasReventadasPorEtapa[etapaActual] = contadorEtapaActual;
+
+                contadorEtapaActual = 0;
+
+                etapaActual++;
+                indiceBurbuja = 0;
+
+                if (etapaActual < data.etapas.Count)
+                {
+                    CargarSiguienteGrupo();
+                }
+                else
+                {
+                    Debug.Log("Juego terminado");
+                    MostrarResultadoFinal();
+                }
+            }
+        }
+
+    }
     public void Saltar()
     {
-        // Revienta todas las actuales
         foreach (var b in new List<GameObject>(burbujasActivas))
         {
             if (b != null)
@@ -150,14 +186,12 @@ public class BubbleManager : MonoBehaviour
 
         burbujasActivas.Clear();
 
-        // Si aún hay burbujas en la etapa
         if (indiceBurbuja < data.etapas[etapaActual].burbujas.Count)
         {
             CargarSiguienteGrupo();
         }
         else
         {
-            // Pasar de etapa
             etapaActual++;
             indiceBurbuja = 0;
 
@@ -196,26 +230,41 @@ public class BubbleManager : MonoBehaviour
 
                 if (distancia < radioA + radioB)
                 {
-                    // 🔥 Dirección del choque
                     Vector2 dir = (a.anchoredPosition - b.anchoredPosition).normalized;
 
-                    // 💨 Intercambiar direcciones (rebote simple)
                     Vector2 temp = physA.velocidad;
                     physA.velocidad = physB.velocidad;
                     physB.velocidad = temp;
 
-                    // 💥 Separarlas (CLAVE para evitar que se peguen)
                     float overlap = (radioA + radioB) - distancia;
 
                     a.anchoredPosition += dir * overlap * 0.5f;
                     b.anchoredPosition -= dir * overlap * 0.5f;
 
-                    // 🫧 EFECTO GEL
                     physA.Impacto();
                     physB.Impacto();
                 }
             }
         }
     }
+
+    void MostrarResultadoFinal()
+    {
+        Debug.Log("MOSTRANDO RESULTADO FINAL"); // 👈 prue
+        panelResultado.SetActive(true);
+
+        string resumen = "RESULTADOS\n\n";
+
+        for (int i = 0; i < burbujasReventadasPorEtapa.Count; i++)
+        {
+            resumen += "Etapa " + (i + 1) + ": " +
+                    burbujasReventadasPorEtapa[i] + " burbujas\n";
+        }
+
+        textoResultado.text = resumen;
+    }
+
+
+
 
 }

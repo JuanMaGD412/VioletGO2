@@ -2,14 +2,17 @@
   "etapas": [
     {
       "spriteIndex": 0,
+      "mensaje": "Has identificado situaciones de violencia psicológica.",
       "burbujas": ["Te han celado", "Te han humillado", "Te han chantajeado", "Te han hecho bromas hirientes", "Has recibido piropos ofensivos", "Te han intimidado", "Has recibido críticas sobre tu vestir o maquillar", "Te  han hecho sentir culpa", "Te han acechado o stalkeado", "Te han hecho la “ley del hielo”", "Te han engañado y mentido"]
     },
     {
       "spriteIndex": 1,
+      "mensaje": "Reconoces situaciones de violencia física.",
       "burbujas": ["Has recibido críticas sobre tu vestir o maquillar", "Sientes control sobre  tus amistades o relaciones", "Te han destruido objetos para agredirte", "Has recibido golpes “jugando”", "Has recibido contacto físico sin consentimiento. ", "Te han empujado o pellizcado", "Te han agredido verbalmente"]
     },
     {
       "spriteIndex": 2,
+      "mensaje": "Estas situaciones son graves. Busca apoyo.",
       "burbujas": ["Te han encerrado o aislado", "Has recibido sextorción", "Te han forzado a una relación sexual", "Te han forzado a una relación sexual", "Te han amenazado de muerte", "Te han dicho que si no haces lo que quieren se suicidan"]
     }
   ]
