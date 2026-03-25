@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 189380aca4c7ee147816079fe8c51770
+guid: 29dfac9f1711a5b4a963b919677552af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,12 +108,122 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: relleno del termometro_0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 379
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a40ff8e4c0faa14d8236ae7e26b2c0e
+      internalID: 24466327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relleno del termometro_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 321
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec017213bef4ce41a6ba50d492d6390
+      internalID: 1563339681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relleno del termometro_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 258
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee46a1219429054288b65ce735dbb72
+      internalID: 217397061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relleno del termometro_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 194
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be320771ed33af1418ebb57be842e642
+      internalID: -708123070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relleno del termometro_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 25
+        width: 118
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a00ce1975d58e3429ff129672aecfc3
+      internalID: 1132534806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f4b6cdbe6060ff74581acf4494aef236
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +232,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      relleno del termometro_0: 24466327
+      relleno del termometro_1: 1563339681
+      relleno del termometro_2: 217397061
+      relleno del termometro_3: -708123070
+      relleno del termometro_4: 1132534806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

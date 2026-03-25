@@ -13,11 +13,13 @@ public class BubbleManager : MonoBehaviour
     private int indiceBurbuja = 0;
     [Header("Sprites por etapa")]
     public Sprite[] spritesPorEtapa;
-    private List<int> burbujasReventadasPorEtapa = new List<int>();
-    private int contadorEtapaActual = 0;
+    public List<int> burbujasReventadasPorEtapa = new List<int>();
+    public int contadorEtapaActual = 0;
     [Header("UI Resultado")]
     public GameObject panelResultado;
     public TMPro.TextMeshProUGUI textoResultado;
+    private int burbujasProcesadasEtapa = 0;
+
 
 
 
@@ -138,60 +140,31 @@ public class BubbleManager : MonoBehaviour
     {
         burbujasActivas.Remove(burbuja);
 
-        // ✅ contar
+        // ✅ contar reventadas
         contadorEtapaActual++;
 
-        if (indiceBurbuja < data.etapas[etapaActual].burbujas.Count)
+        // ✅ contar progreso total
+        burbujasProcesadasEtapa++;
+
+        int totalEtapa = data.etapas[etapaActual].burbujas.Count;
+
+        if (indiceBurbuja < totalEtapa)
         {
             CrearBurbuja(data.etapas[etapaActual].burbujas[indiceBurbuja]);
             indiceBurbuja++;
         }
-        else
+
+        // 🔥 CONTROL REAL DE FIN DE ETAPA
+        if (burbujasProcesadasEtapa >= totalEtapa)
         {
-            // ya no hay más burbujas por crear en esta etapa
+            // guardar resultado
+            burbujasReventadasPorEtapa[etapaActual] = contadorEtapaActual;
 
-            // limpiar nulls por seguridad
-            burbujasActivas.RemoveAll(b => b == null);
+            // reset contadores
+            contadorEtapaActual = 0;
+            burbujasProcesadasEtapa = 0;
 
-            if (burbujasActivas.Count == 0)
-            {
-                // guardar resultado de esta etapa
-                burbujasReventadasPorEtapa[etapaActual] = contadorEtapaActual;
-
-                contadorEtapaActual = 0;
-
-                etapaActual++;
-                indiceBurbuja = 0;
-
-                if (etapaActual < data.etapas.Count)
-                {
-                    CargarSiguienteGrupo();
-                }
-                else
-                {
-                    Debug.Log("Juego terminado");
-                    MostrarResultadoFinal();
-                }
-            }
-        }
-
-    }
-    public void Saltar()
-    {
-        foreach (var b in new List<GameObject>(burbujasActivas))
-        {
-            if (b != null)
-                Destroy(b);
-        }
-
-        burbujasActivas.Clear();
-
-        if (indiceBurbuja < data.etapas[etapaActual].burbujas.Count)
-        {
-            CargarSiguienteGrupo();
-        }
-        else
-        {
+            // avanzar etapa
             etapaActual++;
             indiceBurbuja = 0;
 
@@ -202,9 +175,60 @@ public class BubbleManager : MonoBehaviour
             else
             {
                 Debug.Log("Juego terminado");
+                MostrarResultadoFinal();
             }
         }
     }
+
+
+
+    public void Saltar()
+    {
+        // ✅ contar cuántas burbujas se están saltando
+        int cantidadSaltadas = burbujasActivas.Count;
+
+        // sumar al progreso total
+        burbujasProcesadasEtapa += cantidadSaltadas;
+
+        // destruir burbujas actuales
+        foreach (var b in new List<GameObject>(burbujasActivas))
+        {
+            if (b != null)
+                Destroy(b);
+        }
+
+        burbujasActivas.Clear();
+
+        int totalEtapa = data.etapas[etapaActual].burbujas.Count;
+
+        // 🔥 MISMA LÓGICA DE FIN DE ETAPA
+        if (burbujasProcesadasEtapa >= totalEtapa)
+        {
+            burbujasReventadasPorEtapa[etapaActual] = contadorEtapaActual;
+
+            contadorEtapaActual = 0;
+            burbujasProcesadasEtapa = 0;
+
+            etapaActual++;
+            indiceBurbuja = 0;
+
+            if (etapaActual < data.etapas.Count)
+            {
+                CargarSiguienteGrupo();
+            }
+            else
+            {
+                Debug.Log("Juego terminado");
+                MostrarResultadoFinal();
+            }
+        }
+        else
+        {
+            // cargar más burbujas si aún no termina la etapa
+            CargarSiguienteGrupo();
+        }
+    }
+
 
     void DetectarColisiones()
     {
@@ -263,8 +287,4 @@ public class BubbleManager : MonoBehaviour
 
         textoResultado.text = resumen;
     }
-
-
-
-
 }
