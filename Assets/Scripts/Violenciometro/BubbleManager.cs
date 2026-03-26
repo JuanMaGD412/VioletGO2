@@ -17,9 +17,18 @@ public class BubbleManager : MonoBehaviour
     public int contadorEtapaActual = 0;
     [Header("UI Resultado")]
     public GameObject panelResultado;
-    public TMPro.TextMeshProUGUI textoResultado;
     private int burbujasProcesadasEtapa = 0;
+    [Header("Textos por etapa")]
+    public TMPro.TextMeshProUGUI textoEtapa1;
+    public TMPro.TextMeshProUGUI textoEtapa2;
+    public TMPro.TextMeshProUGUI textoEtapa3;
 
+    [Header("Texto estado final")]
+    public TMPro.TextMeshProUGUI textoEstado;
+
+
+    [Header("Termómetro")]
+    public TermometroManager termometro;
 
 
 
@@ -143,6 +152,10 @@ public class BubbleManager : MonoBehaviour
         // ✅ contar reventadas
         contadorEtapaActual++;
 
+    // 🔥 actualizar UI
+    termometro.ActualizarTermometro(etapaActual, contadorEtapaActual);
+
+
         // ✅ contar progreso total
         burbujasProcesadasEtapa++;
 
@@ -167,6 +180,9 @@ public class BubbleManager : MonoBehaviour
             // avanzar etapa
             etapaActual++;
             indiceBurbuja = 0;
+
+            // 👇 esto asegura que arranque limpia la nueva etapa
+            termometro.ActualizarTermometro(etapaActual, 0);
 
             if (etapaActual < data.etapas.Count)
             {
@@ -272,19 +288,41 @@ public class BubbleManager : MonoBehaviour
         }
     }
 
-    void MostrarResultadoFinal()
+void MostrarResultadoFinal()
     {
-        Debug.Log("MOSTRANDO RESULTADO FINAL"); // 👈 prue
+        Debug.Log("MOSTRANDO RESULTADO FINAL");
         panelResultado.SetActive(true);
 
-        string resumen = "RESULTADOS\n\n";
+        // ✅ Mostrar resultados por etapa
+        textoEtapa1.text = "Etapa 1: " + burbujasReventadasPorEtapa[0];
+        textoEtapa2.text = "Etapa 2: " + burbujasReventadasPorEtapa[1];
+        textoEtapa3.text = "Etapa 3: " + burbujasReventadasPorEtapa[2];
 
-        for (int i = 0; i < burbujasReventadasPorEtapa.Count; i++)
+        // 🔥 Determinar nivel alcanzado
+        string estado = "";
+        string mensaje = "";
+
+        if (burbujasReventadasPorEtapa[2] > 0)
         {
-            resumen += "Etapa " + (i + 1) + ": " +
-                    burbujasReventadasPorEtapa[i] + " burbujas\n";
+            estado = "URGENTE";
+            mensaje = "Has identificado situaciones graves de violencia.";
+        }
+        else if (burbujasReventadasPorEtapa[1] > 0)
+        {
+            estado = "PELIGRO";
+            mensaje = "Hay señales importantes de violencia.";
+        }
+        else if (burbujasReventadasPorEtapa[0] > 0)
+        {
+            estado = "ALERTA";
+            mensaje = "Existen señales iniciales de violencia.";
+        }
+        else
+        {
+            estado = "SIN IDENTIFICAR";
+            mensaje = "No identificaste situaciones.";
         }
 
-        textoResultado.text = resumen;
+        textoEstado.text = estado + "\n" + mensaje;
     }
 }
