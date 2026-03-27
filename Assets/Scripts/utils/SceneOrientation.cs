@@ -12,6 +12,7 @@ public class SceneOrientation : MonoBehaviour
         }
         else
         {
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
             Screen.autorotateToPortrait = false;
             Screen.autorotateToPortraitUpsideDown = false;
             Screen.autorotateToLandscapeLeft = true;
