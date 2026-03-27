@@ -23,6 +23,10 @@ public class TriviaManager : MonoBehaviour
     public TMP_Text textoFallos;
     public TMP_Text textoRango;
 
+    [Header("Panel Retroalimentacion")]
+    public GameObject panelRetro;
+    public TMP_Text textoRetro;
+
     void Start()
     {
         loader.OnTriviaLoaded += InicializarTrivia;
@@ -71,22 +75,20 @@ public class TriviaManager : MonoBehaviour
     {
         Pregunta p = preguntas[preguntaActual];
 
+        panelRetro.SetActive(true);
+
         if (opcion == p.respuestaCorrecta)
         {
             Debug.Log("Correcto");
-            respuestasCorrectas++; // 👈 IMPORTANTE
+            respuestasCorrectas++;
+
+            textoRetro.text = p.retroCorrecta;
         }
         else
         {
             Debug.Log("Incorrecto");
+            textoRetro.text = p.retroIncorrecta;
         }
-
-        preguntaActual++;
-
-        if (preguntaActual < preguntas.Length)
-            MostrarPregunta();
-        else
-            FinalizarTrivia(); // 👈 en lugar de solo log
     }
 
     void FinalizarTrivia()
@@ -108,6 +110,17 @@ public class TriviaManager : MonoBehaviour
         MostrarPanelResultado(respuestasCorrectas, fallos, nombreRango);        
     }
 
+    public void ContinuarPregunta()
+    {
+        panelRetro.SetActive(false);
+
+        preguntaActual++;
+
+        if (preguntaActual < preguntas.Length)
+            MostrarPregunta();
+        else
+            FinalizarTrivia();
+    }
     void MostrarPanelResultado(int aciertos, int fallos, string rango)
     {
         panelResultado.SetActive(true);

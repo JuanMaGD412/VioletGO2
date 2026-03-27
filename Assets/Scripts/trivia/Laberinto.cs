@@ -11,4 +11,6 @@ public class Pregunta
     public string pregunta;
     public string[] opciones;
     public int respuestaCorrecta;
+    public string retroCorrecta;
+    public string retroIncorrecta;
 }
