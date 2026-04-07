@@ -1553,7 +1553,7 @@ MonoBehaviour:
   velocidadManual: 80
   limiteArriba: 1000
   limiteAbajo: 0
-  panel: {fileID: 1012649825}
+  panel: {fileID: 429686582}
   tiempoAntesDeCerrar: 3
 --- !u!114 &1165884087
 MonoBehaviour:
