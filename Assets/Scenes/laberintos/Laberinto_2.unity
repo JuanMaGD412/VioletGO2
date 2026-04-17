@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: cdbb40e11399e4a17882ada20a1b896a, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b4f152e0498484391a9f0d5a1facf03b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -331,8 +331,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.479904, y: -154.9}
-  m_SizeDelta: {x: 587.2344, y: 45}
+  m_AnchoredPosition: {x: 1.5467994, y: -145.88531}
+  m_SizeDelta: {x: 565.7705, y: 44.3715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92887004
 MonoBehaviour:
@@ -515,7 +515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &144713657
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1671,8 +1671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.4766, y: -105.8}
-  m_SizeDelta: {x: 587.2279, y: 45}
+  m_AnchoredPosition: {x: 1.55, y: -97.47109}
+  m_SizeDelta: {x: 565.7642, y: 44.3715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &633033377
 MonoBehaviour:
@@ -1836,8 +1836,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.356201, y: -6.2}
-  m_SizeDelta: {x: 587.2279, y: 45}
+  m_AnchoredPosition: {x: -3.1513, y: 0.7379}
+  m_SizeDelta: {x: 565.7642, y: 44.3715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650250774
 MonoBehaviour:
@@ -3393,6 +3393,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a4f64c711338b204d8506883be94dfc2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e5470bab91211d44b94d10f66ed5d47d, type: 2}
     - target: {fileID: 919132149155446097, guid: a4f64c711338b204d8506883be94dfc2, type: 3}
       propertyPath: m_Name
       value: Laberinto4
@@ -4885,7 +4889,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557657789}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4894,8 +4898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.6, y: 77}
-  m_SizeDelta: {x: 632.0037, y: 278.03}
+  m_AnchoredPosition: {x: -0.4358, y: 75.23742}
+  m_SizeDelta: {x: 713.1611, y: 230.9589}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557657791
 MonoBehaviour:
@@ -5442,8 +5446,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.479904, y: -57.5}
-  m_SizeDelta: {x: 587.2344, y: 45}
+  m_AnchoredPosition: {x: 1.5467994, y: -49.845684}
+  m_SizeDelta: {x: 565.7705, y: 44.3715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633354364
 MonoBehaviour:
@@ -7490,8 +7494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.2243, y: 71.029945}
-  m_SizeDelta: {x: 492.2717, y: 82.6919}
+  m_AnchoredPosition: {x: -3.2243, y: 71.16104}
+  m_SizeDelta: {x: 492.2717, y: 64.2963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952213818
 MonoBehaviour:

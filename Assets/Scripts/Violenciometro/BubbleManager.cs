@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class BubbleManager : MonoBehaviour
 {
@@ -11,26 +12,27 @@ public class BubbleManager : MonoBehaviour
     private JuegoData data;
     private int etapaActual = 0;
     private int indiceBurbuja = 0;
+
     [Header("Sprites por etapa")]
     public Sprite[] spritesPorEtapa;
+
     public List<int> burbujasReventadasPorEtapa = new List<int>();
     public int contadorEtapaActual = 0;
+
     [Header("UI Resultado")]
     public GameObject panelResultado;
     private int burbujasProcesadasEtapa = 0;
+
     [Header("Textos por etapa")]
-    public TMPro.TextMeshProUGUI textoEtapa1;
-    public TMPro.TextMeshProUGUI textoEtapa2;
-    public TMPro.TextMeshProUGUI textoEtapa3;
+    public TextMeshProUGUI textoEtapa1;
+    public TextMeshProUGUI textoEtapa2;
+    public TextMeshProUGUI textoEtapa3;
 
     [Header("Texto estado final")]
-    public TMPro.TextMeshProUGUI textoEstado;
-
+    public TextMeshProUGUI textoEstado;
 
     [Header("Termómetro")]
     public TermometroManager termometro;
-
-
 
     private List<GameObject> burbujasActivas = new List<GameObject>();
 
@@ -38,7 +40,6 @@ public class BubbleManager : MonoBehaviour
     {
         CargarJSON();
 
-        // Inicializar contadores por etapa
         for (int i = 0; i < data.etapas.Count; i++)
         {
             burbujasReventadasPorEtapa.Add(0);
@@ -47,16 +48,14 @@ public class BubbleManager : MonoBehaviour
         CargarSiguienteGrupo();
     }
 
-    
     void Update()
     {
         DetectarColisiones();
     }
 
-
     void CargarJSON()
     {
-        TextAsset json = Resources.Load<TextAsset>("burbujas"); 
+        TextAsset json = Resources.Load<TextAsset>("burbujas");
         data = JsonUtility.FromJson<JuegoData>(json.text);
     }
 
@@ -73,24 +72,24 @@ public class BubbleManager : MonoBehaviour
     }
 
     void CrearBurbuja(string palabra)
-{
-    GameObject nueva = Instantiate(prefabBurbuja, contenedor);
-
-    BubbleUI script = nueva.GetComponent<BubbleUI>();
-    script.contenido = palabra;
-    script.manager = this;
-
-    UnityEngine.UI.Image img = nueva.GetComponent<UnityEngine.UI.Image>();
-    if (img != null && etapaActual < spritesPorEtapa.Length)
     {
-        img.sprite = spritesPorEtapa[etapaActual];
+        GameObject nueva = Instantiate(prefabBurbuja, contenedor);
+
+        BubbleUI script = nueva.GetComponent<BubbleUI>();
+        script.contenido = palabra;
+        script.manager = this;
+
+        UnityEngine.UI.Image img = nueva.GetComponent<UnityEngine.UI.Image>();
+        if (img != null && etapaActual < spritesPorEtapa.Length)
+        {
+            img.sprite = spritesPorEtapa[etapaActual];
+        }
+
+        RectTransform rt = nueva.GetComponent<RectTransform>();
+        rt.anchoredPosition = GenerarPosicion();
+
+        burbujasActivas.Add(nueva);
     }
-
-    RectTransform rt = nueva.GetComponent<RectTransform>();
-    rt.anchoredPosition = GenerarPosicion();
-
-    burbujasActivas.Add(nueva);
-}
 
     Vector2 GenerarPosicion()
     {
@@ -135,28 +134,21 @@ public class BubbleManager : MonoBehaviour
                 }
             }
 
-
             intentos++;
 
-        } while (!posicionValida && intentos < 50); 
+        } while (!posicionValida && intentos < 50);
 
         return nuevaPos;
     }
-
-
 
     public void BurbujaReventada(GameObject burbuja)
     {
         burbujasActivas.Remove(burbuja);
 
-        // ✅ contar reventadas
         contadorEtapaActual++;
 
-    // 🔥 actualizar UI
-    termometro.ActualizarTermometro(etapaActual, contadorEtapaActual);
+        termometro.ActualizarTermometro(etapaActual, contadorEtapaActual);
 
-
-        // ✅ contar progreso total
         burbujasProcesadasEtapa++;
 
         int totalEtapa = data.etapas[etapaActual].burbujas.Count;
@@ -167,21 +159,16 @@ public class BubbleManager : MonoBehaviour
             indiceBurbuja++;
         }
 
-        // 🔥 CONTROL REAL DE FIN DE ETAPA
         if (burbujasProcesadasEtapa >= totalEtapa)
         {
-            // guardar resultado
             burbujasReventadasPorEtapa[etapaActual] = contadorEtapaActual;
 
-            // reset contadores
             contadorEtapaActual = 0;
             burbujasProcesadasEtapa = 0;
 
-            // avanzar etapa
             etapaActual++;
             indiceBurbuja = 0;
 
-            // 👇 esto asegura que arranque limpia la nueva etapa
             termometro.ActualizarTermometro(etapaActual, 0);
 
             if (etapaActual < data.etapas.Count)
@@ -190,23 +177,17 @@ public class BubbleManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Juego terminado");
                 MostrarResultadoFinal();
             }
         }
     }
 
-
-
     public void Saltar()
     {
-        // ✅ contar cuántas burbujas se están saltando
         int cantidadSaltadas = burbujasActivas.Count;
 
-        // sumar al progreso total
         burbujasProcesadasEtapa += cantidadSaltadas;
 
-        // destruir burbujas actuales
         foreach (var b in new List<GameObject>(burbujasActivas))
         {
             if (b != null)
@@ -217,7 +198,6 @@ public class BubbleManager : MonoBehaviour
 
         int totalEtapa = data.etapas[etapaActual].burbujas.Count;
 
-        // 🔥 MISMA LÓGICA DE FIN DE ETAPA
         if (burbujasProcesadasEtapa >= totalEtapa)
         {
             burbujasReventadasPorEtapa[etapaActual] = contadorEtapaActual;
@@ -234,17 +214,14 @@ public class BubbleManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Juego terminado");
                 MostrarResultadoFinal();
             }
         }
         else
         {
-            // cargar más burbujas si aún no termina la etapa
             CargarSiguienteGrupo();
         }
     }
-
 
     void DetectarColisiones()
     {
@@ -288,41 +265,71 @@ public class BubbleManager : MonoBehaviour
         }
     }
 
-void MostrarResultadoFinal()
+    void MostrarResultadoFinal()
     {
-        Debug.Log("MOSTRANDO RESULTADO FINAL");
         panelResultado.SetActive(true);
 
-        // ✅ Mostrar resultados por etapa
+        // Colores por etapa
+        Color colorEtapa1 = new Color(1f, 0.9f, 0.3f);
+        Color colorEtapa2 = new Color(1f, 0.6f, 0.1f);
+        Color colorEtapa3 = new Color(1f, 0.2f, 0.2f);
+
         textoEtapa1.text = "Etapa 1: " + burbujasReventadasPorEtapa[0];
         textoEtapa2.text = "Etapa 2: " + burbujasReventadasPorEtapa[1];
         textoEtapa3.text = "Etapa 3: " + burbujasReventadasPorEtapa[2];
 
-        // 🔥 Determinar nivel alcanzado
+        textoEtapa1.color = colorEtapa1;
+        textoEtapa2.color = colorEtapa2;
+        textoEtapa3.color = colorEtapa3;
+
+        AplicarOutline(textoEtapa1);
+        AplicarOutline(textoEtapa2);
+        AplicarOutline(textoEtapa3);
+        AplicarOutline(textoEstado);
+
         string estado = "";
         string mensaje = "";
+        int sizeEstado = 50;
 
         if (burbujasReventadasPorEtapa[2] > 0)
         {
             estado = "URGENTE";
             mensaje = "Has identificado situaciones graves de violencia.";
+            textoEstado.color = new Color(1f, 0.1f, 0.1f);
+            sizeEstado = 60;
         }
         else if (burbujasReventadasPorEtapa[1] > 0)
         {
             estado = "PELIGRO";
             mensaje = "Hay señales importantes de violencia.";
+            textoEstado.color = new Color(1f, 0.5f, 0f);
+            sizeEstado = 55;
         }
         else if (burbujasReventadasPorEtapa[0] > 0)
         {
             estado = "ALERTA";
             mensaje = "Existen señales iniciales de violencia.";
+            textoEstado.color = new Color(1f, 0.85f, 0.2f);
+            sizeEstado = 50;
         }
         else
         {
             estado = "SIN IDENTIFICAR";
             mensaje = "No identificaste situaciones.";
+            textoEstado.color = Color.white;
+            sizeEstado = 45;
         }
 
-        textoEstado.text = estado + "\n" + mensaje;
+        // 🔥 AQUÍ ESTÁ LA MAGIA
+        textoEstado.text =
+            "<size=" + sizeEstado + ">" + estado + "</size>\n" +
+            "<size=35><color=#FFD966>" + mensaje + "</color></size>";
+    }
+
+    void AplicarOutline(TextMeshProUGUI texto)
+    {
+        texto.fontMaterial.EnableKeyword("OUTLINE_ON");
+        texto.outlineWidth = 0.25f;
+        texto.outlineColor = Color.black;
     }
 }

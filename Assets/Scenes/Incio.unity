@@ -363,13 +363,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 789668947}
+  - {fileID: 1107854463}
   m_Father: {fileID: 1411769442}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8421936, y: 2.7767944}
-  m_SizeDelta: {x: 615.61, y: 654.16}
+  m_AnchoredPosition: {x: -1.8400879, y: -567.6722}
+  m_SizeDelta: {x: 615.61, y: 1607.5046}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355644939
 MonoBehaviour:
@@ -389,7 +391,7 @@ MonoBehaviour:
   limiteArriba: 1000
   limiteAbajo: 0
   panel: {fileID: 1012649825}
-  tiempoAntesDeCerrar: 3
+  tiempoAntesDeCerrar: 1
 --- !u!114 &355644940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,13 +412,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Licencia Creative Commons\r\n\r\nIDEACION\r\n\r\n\r\n\r\nCOCREACION\r\n\r\n\r\nDESARROLLO\r\nSEmillero
-    de videojuegos SEVIJU 317,  Grupo de investigaci\xF3n ITOS\r\nEstudiante Juan
-    Manuel Grandet D\r\nProfesor Diana Margot L\xF3pez H \r\n\r\n\r\n\r\n\r\nTEMATICOS\r\n\r\nCopy 
-    Funda,  bienes, \r\n"
+  m_text: "CR\xC9DITOS\n\nEsta App <b><color=#FFD166>APP VIOLETA GO: Jugamos para
+    transformar</color></b> fue creada como producto del proyecto denominado <b><color=#FFD166>PREVENCI\xD3N
+    Y DETECCI\xD3N DE VBG POR UNA UDEA LIBRE DE VIOLENCIAS</color></b>.\n\nSu desarrollo
+    estuvo a cargo de un <b><color=#FFD166>equipo multidisciplinar</color></b>\nde
+    los campus <b><color=#FFD166>Yarumal, Puerto Berr\xEDo y Medell\xEDn</color></b>,
+    con los recursos de la convocatoria\n<b><color=#FFD166> PROMOTORES DEL BIENESTAR
+    2025-2026</color></b>.\n\n<b><color=#FFD166>Equipo del campus de Puerto Berr\xEDo</color></b>\nDiana
+    Patricia Restrepo Ruiz\nDaniel Esteban Guti\xE9rrez Morales\n\n<b><color=#FFD166>Equipo
+    del campus de Yarumal</color></b>\nLined del Carmen Areiza Saldarriaga\nClaudia
+    Juliana Correa\nSandar Milena Cardona Morales\nAlex Enrique Renter\xEDa Moreno\nLaura
+    Melissa Carmona M\xFAnera\nAlba Luc\xEDa P\xE9rez Osorio\nAlejandra Restrepo
+    G\xF3mez\n\n<b><color=#FFD166>Equipo de Ingenier\xEDa</color></b>\nSemillero
+    de videojuegos SEVIJU 317 del Grupo de investigaci\xF3n ITOS\nEstudiante Juan
+    Manuel Grandet Duarte\nEstudiante Juan Manuel Vera Osorio\nProfesor Diana Margot
+    L\xF3pez Herrera\n\n<b><color=#FFD166>Agradecimientos</color></b>\nAl Sistema
+    Universitario de Bienestar de la UDEA"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -440,14 +454,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 29.5
+  m_fontSizeBase: 29.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 1
+  m_HorizontalAlignment: 32
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -478,7 +492,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -218.13818}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -523,6 +537,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 507172581}
+  - {fileID: 1412421119}
   m_Father: {fileID: 1779076756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -1231,6 +1246,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591995331}
   m_CullTransparentMesh: 1
+--- !u!1 &789668946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789668947}
+  - component: {fileID: 789668949}
+  - component: {fileID: 789668948}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &789668947
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789668946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 355644938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1, y: -616}
+  m_SizeDelta: {x: 297.9517, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &789668948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789668946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1382729080, guid: bde24db35e88ca24dbb87b9904fcd5fb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &789668949
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789668946}
+  m_CullTransparentMesh: 1
 --- !u!1 &1012649825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1352,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1411769442}
+  - {fileID: 1941563764}
   m_Father: {fileID: 1779076756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -1342,7 +1433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0019836426, y: -0.0012207031}
+  m_AnchoredPosition: {x: -0.0019836426, y: -83}
   m_SizeDelta: {x: 619.2855, y: 659.7201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1015093468
@@ -1363,7 +1454,7 @@ MonoBehaviour:
   limiteArriba: 1000
   limiteAbajo: 0
   panel: {fileID: 1176413619}
-  tiempoAntesDeCerrar: 3
+  tiempoAntesDeCerrar: 1
 --- !u!114 &1015093469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1384,42 +1475,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "El proyecto \u201CVIOLETA GO: Jugamos para transformar\u201D se concibe
-    como una iniciativa integral y creativa para abordar la prevenci\xF3n y detecci\xF3n
-    de las Violencias Basadas en G\xE9nero (VBG) en los campus de Yarumal y Puerto
-    Berr\xEDo de la Universidad de Antioquia. Su dise\xF1o responde al Eje tem\xE1tico
-    1 de la Convocatoria Promotores del Bienestar 2025\u20132026 y se fundamenta
-    en el Protocolo Ruta Violeta (2023), el cual establece la importancia de acciones
-    formativas, de sensibilizaci\xF3n y de detecci\xF3n temprana para prevenir y
-    atender las VBG en el contexto universitario.\r\n\r\nEn ambos campus, la comunidad
-    universitaria es diversa en t\xE9rminos de edad, procedencia geogr\xE1fica, identidades
-    y expresiones de g\xE9nero, y trayectorias acad\xE9micas. Esta diversidad, aunque
-    es una fortaleza, tambi\xE9n implica desaf\xEDos en la convivencia y en la comprensi\xF3n
-    compartida sobre qu\xE9 conductas constituyen VBG, c\xF3mo identificarlas y c\xF3mo
-    actuar frente a ellas. La evidencia y las experiencias previas muestran que muchas
-    VBG no se denuncian o se invisibilizan debido a la falta de informaci\xF3n clara
-    y accesible, o al desconocimiento de las rutas institucionales de atenci\xF3n.\r\n\r\n\u201CVIOLETA
-    GO\u201D propone una soluci\xF3n innovadora mediante el dise\xF1o y desarrollo
-    de una aplicaci\xF3n m\xF3vil gamificada que permita a estudiantes, profesores
-    y personal administrativo interactuar con contenidos validados institucionalmente,
-    a trav\xE9s de retos, misiones y din\xE1micas que promuevan la comprensi\xF3n,
-    el rechazo y la detecci\xF3n de las VBG. La gamificaci\xF3n no solo aumenta el
-    inter\xE9s y la participaci\xF3n, sino que, seg\xFAn la teor\xEDa del aprendizaje
-    significativo (Ausubel, 1983) y la gamificaci\xF3n educativa (Werbach & Hunter,
-    2012), facilita la apropiaci\xF3n de contenidos y su transferencia a la vida
-    cotidiana.\r\n\r\nEste enfoque combina lo presencial y lo virtual, de manera
-    que la APP se complementa con talleres, retos art\xEDsticos y culturales, campa\xF1as
-    educomunicativas y actividades interactivas en redes sociales, garantizando cobertura,
-    pertinencia y sostenibilidad. As\xED, no solo se fomenta el conocimiento de la
-    Ruta Violeta, sino que se fortalecen competencias para la identificaci\xF3n temprana
-    de VBG y la acci\xF3n oportuna frente a estas.\r\n\r\nTodas las acciones del
-    proyecto est\xE1n dise\xF1adas exclusivamente para responder a la prevenci\xF3n
-    y detecci\xF3n de las VBG, asegurando su alineaci\xF3n con el Protocolo Ruta
-    Violeta, y evitando incluir actividades que puedan interpretarse como pertenecientes
-    a otros ejes tem\xE1ticos. La propuesta busca, adem\xE1s, dejar instalada una
-    herramienta tecnol\xF3gica y un modelo de intervenci\xF3n que pueda mantenerse,
-    actualizarse y replicarse en el multicampus, contribuyendo a la construcci\xF3n
-    de una universidad libre de violencias.\r\n\r\n\r\n\r\nCopyright UDEA 2026\r\n"
+  m_text: "Te damos la bienvenida a\n<b><color=#FFD166>VIOLETA GO: Jugamos para transformar</color></b>,
+    una iniciativa de los campus <b><color=#FFD166>Yarumal y Puerto Berr\xEDo de
+    la Universidad de Antioquia</color></b>, creada para acompa\xF1ar a la comunidad
+    universitaria en la <b><color=#FFD166>prevenci\xF3n y detecci\xF3n de las Violencias
+    Basadas en G\xE9nero (VBG)</color></b> en el contexto universitario.\n\nDesarrollada
+    en el marco de la <b><color=#FFD166>Convocatoria Promotores del Bienestar 2025\u20132026</color></b>
+    y basada en el <b><color=#FFD166>Protocolo Ruta Violeta (2023)</color></b>, <b><color=#FFD166>VIOLETA
+    GO</color></b> te invita a aprender a trav\xE9s de <b><color=#FFD166>retos, desaf\xEDos,
+    din\xE1micas y contenidos de valor</color></b> que te ayudar\xE1n a <b><color=#FFD166>reconocer
+    e identificar las VBG</color></b>, <b><color=#FFD166>conocer las rutas de atenci\xF3n
+    de la Universidad</color></b> y <b><color=#FFD166>actuar de manera oportuna</color></b>.\n\nEn
+    <b><color=#FFD166>VIOLETA GO</color></b>, cada interacci\xF3n suma a la construcci\xF3n
+    de una <b><color=#FFD166>cultura universitaria de respeto, cuidado y convivencia</color></b>.
+    Empieza a jugar y a aprender: <b><color=#FFD166>lo que haces aqu\xED puede cambiar
+    la forma en que vivimos en la universidad</color></b>.\n\n<b><color=#FFD166>Copyright
+    UDEA 2026</color></b>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1446,14 +1517,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35.3
+  m_fontSizeBase: 35.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 1
+  m_HorizontalAlignment: 32
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1498,6 +1569,240 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015093466}
   m_CullTransparentMesh: 1
+--- !u!1 &1037045880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037045881}
+  - component: {fileID: 1037045886}
+  - component: {fileID: 1037045885}
+  - component: {fileID: 1037045884}
+  - component: {fileID: 1037045883}
+  - component: {fileID: 1037045882}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1037045881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037045880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1176413620}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000019073, y: -476.6884}
+  m_SizeDelta: {x: 373.3259, y: 119.1245}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1037045882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037045880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972934a8f24d6dd44b210d942f7da56a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1037045883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037045880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b2f532a9a6e1d4ea0dffaa4f628186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1176413619}
+--- !u!114 &1037045884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037045880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1037045885}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1037045883}
+        m_TargetAssemblyTypeName: StatusPaneUI, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1037045885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037045880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -336715779, guid: bdc5de1fdccabd94ca38ee589787c6a9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1037045886
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037045880}
+  m_CullTransparentMesh: 1
+--- !u!1 &1107854462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107854463}
+  - component: {fileID: 1107854465}
+  - component: {fileID: 1107854464}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1107854463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107854462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 355644938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.99999, y: -849.00006}
+  m_SizeDelta: {x: 240.2874, y: 316.3224}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1107854464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107854462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1168175794, guid: bde24db35e88ca24dbb87b9904fcd5fb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1107854465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107854462}
+  m_CullTransparentMesh: 1
 --- !u!1 &1165884084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8421936, y: 2.7767944}
+  m_AnchoredPosition: {x: -1.8421936, y: -87.02008}
   m_SizeDelta: {x: 615.61, y: 654.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165884086
@@ -1554,7 +1859,7 @@ MonoBehaviour:
   limiteArriba: 1000
   limiteAbajo: 0
   panel: {fileID: 429686582}
-  tiempoAntesDeCerrar: 3
+  tiempoAntesDeCerrar: 1
 --- !u!114 &1165884087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1575,19 +1880,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "La L\xEDnea Alma es un servicio gratuito de atenci\xF3n telef\xF3nica
-    para acompa\xF1ar en\r\nsalud mental y orientar en casos de Violencias Basadas
-    en G\xE9nero. Est\xE1\r\ndisponible 24 horas del d\xEDa, los siete d\xEDas de
-    la semana.\r\n\r\nOfrece asesor\xEDa, acompa\xF1amiento y apoyo emocional profesional
-    para la\r\ncomunidad universitaria de la Universidad de Antioquia, en sus campus\r\nubicados
-    en Medell\xEDn y las Regiones. Es un espacio de atenci\xF3n confidencial y\r\nseguro.\r\n\r\n\U0001F4DE
-    Marca la L\xEDnea Alma desde un tel\xE9fono fijo o celular al n\xFAmero\r\n 018000423874
-    \r\n \U0001F4F2 O escribe a trav\xE9s del WhatsApp: 3054336317\r\n\r\n\xA1Te
-    escuchamos, te orientamos! Al llamar, marca la opci\xF3n seg\xFAn tu necesidad:\r\n\r\nMarca
-    1: Para recibir atenci\xF3n por temas de salud mental.\r\nMarca 2: Para recibir
-    orientaci\xF3n y atenci\xF3n ante violencias basadas en g\xE9nero.\r\nMarca 3:
-    Para recibir orientaci\xF3n si te han se\xF1alado como responsable de\r\nalg\xFAn
-    tipo de violencia o discriminaci\xF3n basada en g\xE9nero.\r\n"
+  m_text: "La <b><color=#FFD166>L\xEDnea Alma</color></b> es un <b><color=#FFD166>servicio
+    gratuito de atenci\xF3n telef\xF3nica</color></b> para acompa\xF1ar en <b><color=#FFD166>salud
+    mental</color></b> y orientar en casos de <b><color=#FFD166>Violencias Basadas
+    en G\xE9nero</color></b>. Est\xE1 disponible las <b><color=#FFD166>24 horas del
+    d\xEDa, los siete d\xEDas de la semana</color></b>.\n\nOfrece <b><color=#FFD166>asesor\xEDa,
+    acompa\xF1amiento y apoyo emocional profesional</color></b> para la comunidad
+    universitaria de la <b><color=#FFD166>Universidad de Antioquia</color></b>, en
+    sus campus ubicados en <b><color=#FFD166>Medell\xEDn y las regiones donde la
+    Universidad tiene presencia</color></b>. Es un espacio de <b><color=#FFD166>atenci\xF3n
+    confidencial y seguro</color></b>.\n\nMarca la <b><color=#FFD166>L\xEDnea Alma</color></b>
+    desde un tel\xE9fono fijo o celular al n\xFAmero <b><color=#FFD166>018000423874</color></b>
+    o escribe a trav\xE9s de <b><color=#FFD166>WhatsApp: 3054336317</color></b>.\n\n<b><color=#FFD166>\xA1Te
+    escuchamos, te orientamos!</color></b> \nAl llamar, marca la opci\xF3n seg\xFAn
+    tu necesidad: \n<b><color=#FFD166>Marca 1</color></b>: para recibir atenci\xF3n
+    por temas de salud mental. \n<b><color=#FFD166>Marca 2</color></b>: para recibir
+    orientaci\xF3n y atenci\xF3n ante violencias basadas en g\xE9nero. \n<b><color=#FFD166>Marca
+    3</color></b>: para recibir orientaci\xF3n si te han se\xF1alado como responsable
+    de alg\xFAn tipo de violencia o discriminaci\xF3n basada en g\xE9nero."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1614,13 +1924,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 29.5
+  m_fontSizeBase: 29.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1697,6 +2007,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 312979872}
+  - {fileID: 1037045881}
   m_Father: {fileID: 1779076756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -1831,6 +2142,165 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411769441}
+  m_CullTransparentMesh: 1
+--- !u!1 &1412421118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412421119}
+  - component: {fileID: 1412421124}
+  - component: {fileID: 1412421123}
+  - component: {fileID: 1412421122}
+  - component: {fileID: 1412421121}
+  - component: {fileID: 1412421120}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1412421119
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412421118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 429686583}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -476.68826}
+  m_SizeDelta: {x: 373.3259, y: 119.1245}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1412421120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412421118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972934a8f24d6dd44b210d942f7da56a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1412421121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412421118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b2f532a9a6e1d4ea0dffaa4f628186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 429686582}
+--- !u!114 &1412421122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412421118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1412421123}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1412421121}
+        m_TargetAssemblyTypeName: StatusPaneUI, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1412421123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412421118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -336715779, guid: bdc5de1fdccabd94ca38ee589787c6a9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1412421124
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412421118}
   m_CullTransparentMesh: 1
 --- !u!1 &1567845227
 GameObject:
@@ -2149,6 +2619,155 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 429686582}
+--- !u!1 &1626956740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626956743}
+  - component: {fileID: 1626956742}
+  - component: {fileID: 1626956741}
+  m_Layer: 0
+  m_Name: audioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1626956741
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626956740}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: cf82fdb3c322cb648bf61771e144f682, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1626956742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626956740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea6a88aa5264e542be21760b2262c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 1626956741}
+  escenasSinMusica:
+  - Laberinto_1
+  - Laberinto_2
+  - Laberinto_3
+  - Laberinto_4
+  - Laberinto_5
+--- !u!4 &1626956743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626956740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 910.4107, y: 998.724, z: 8.687426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1779076752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +3038,165 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614140b9387f47c4d8f9bdaf6661f502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1941563763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941563764}
+  - component: {fileID: 1941563769}
+  - component: {fileID: 1941563768}
+  - component: {fileID: 1941563767}
+  - component: {fileID: 1941563766}
+  - component: {fileID: 1941563765}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1941563764
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941563763}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1012649826}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -476.68826}
+  m_SizeDelta: {x: 373.3259, y: 119.1245}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1941563765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941563763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972934a8f24d6dd44b210d942f7da56a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1941563766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941563763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b2f532a9a6e1d4ea0dffaa4f628186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1012649825}
+--- !u!114 &1941563767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941563763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1941563768}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1941563766}
+        m_TargetAssemblyTypeName: StatusPaneUI, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1941563768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941563763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -336715779, guid: bdc5de1fdccabd94ca38ee589787c6a9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1941563769
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941563763}
+  m_CullTransparentMesh: 1
 --- !u!1 &1941819346
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,3 +3365,4 @@ SceneRoots:
   - {fileID: 1779076756}
   - {fileID: 46005436}
   - {fileID: 267327638}
+  - {fileID: 1626956743}
