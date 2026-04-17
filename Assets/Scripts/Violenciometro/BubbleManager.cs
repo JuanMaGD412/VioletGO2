@@ -19,6 +19,10 @@ public class BubbleManager : MonoBehaviour
     public List<int> burbujasReventadasPorEtapa = new List<int>();
     public int contadorEtapaActual = 0;
 
+    [Header("Colores de texto por etapa")]
+    public Color[] coloresTextoPorEtapa;    
+
+
     [Header("UI Resultado")]
     public GameObject panelResultado;
     private int burbujasProcesadasEtapa = 0;
@@ -78,6 +82,16 @@ public class BubbleManager : MonoBehaviour
         BubbleUI script = nueva.GetComponent<BubbleUI>();
         script.contenido = palabra;
         script.manager = this;
+
+        if (script.texto != null && etapaActual < coloresTextoPorEtapa.Length)
+        {
+            Color c = coloresTextoPorEtapa[etapaActual];
+            c.a = 1f; // 🔥 esto es lo que te está faltando
+            script.texto.color = c;
+
+        }
+
+
 
         UnityEngine.UI.Image img = nueva.GetComponent<UnityEngine.UI.Image>();
         if (img != null && etapaActual < spritesPorEtapa.Length)
@@ -269,7 +283,6 @@ public class BubbleManager : MonoBehaviour
     {
         panelResultado.SetActive(true);
 
-        // Colores por etapa
         Color colorEtapa1 = new Color(1f, 0.9f, 0.3f);
         Color colorEtapa2 = new Color(1f, 0.6f, 0.1f);
         Color colorEtapa3 = new Color(1f, 0.2f, 0.2f);
@@ -320,7 +333,6 @@ public class BubbleManager : MonoBehaviour
             sizeEstado = 45;
         }
 
-        // 🔥 AQUÍ ESTÁ LA MAGIA
         textoEstado.text =
             "<size=" + sizeEstado + ">" + estado + "</size>\n" +
             "<size=35><color=#FFD966>" + mensaje + "</color></size>";

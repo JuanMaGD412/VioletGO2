@@ -1022,7 +1022,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 533705405}
-        m_TargetAssemblyTypeName: StatusPaneUI, Assembly-CSharp
+        m_TargetAssemblyTypeName: StatusPaneUIText, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -1092,10 +1092,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 533705399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52b2f532a9a6e1d4ea0dffaa4f628186, type: 3}
+  m_Script: {fileID: 11500000, guid: db6360026928eb14883fbf2da794f3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1176413619}
+  scrollTextos: {fileID: 1015093468}
 --- !u!1 &557239055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,7 +2546,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1583946223}
-        m_TargetAssemblyTypeName: StatusPaneUI, Assembly-CSharp
+        m_TargetAssemblyTypeName: StatusPaneUIText, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -2615,10 +2616,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1583946217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52b2f532a9a6e1d4ea0dffaa4f628186, type: 3}
+  m_Script: {fileID: 11500000, guid: db6360026928eb14883fbf2da794f3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 429686582}
+  scrollTextos: {fileID: 1165884086}
 --- !u!1 &1626956740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,7 +3284,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1941819352}
-        m_TargetAssemblyTypeName: StatusPaneUI, Assembly-CSharp
+        m_TargetAssemblyTypeName: StatusPaneUIText, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
@@ -3352,10 +3354,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1941819346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52b2f532a9a6e1d4ea0dffaa4f628186, type: 3}
+  m_Script: {fileID: 11500000, guid: db6360026928eb14883fbf2da794f3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1012649825}
+  scrollTextos: {fileID: 355644939}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

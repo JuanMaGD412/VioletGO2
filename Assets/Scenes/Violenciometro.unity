@@ -909,6 +909,10 @@ MonoBehaviour:
   - {fileID: 1969015083, guid: 16d2ba3fc363ace4bbbf369811320c2b, type: 3}
   burbujasReventadasPorEtapa: 
   contadorEtapaActual: 0
+  coloresTextoPorEtapa:
+  - {r: 1, g: 0.30588236, b: 0.88235295, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
   panelResultado: {fileID: 836438548}
   textoEtapa1: {fileID: 744764741}
   textoEtapa2: {fileID: 2090367086}
