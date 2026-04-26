@@ -14,34 +14,22 @@
         int index = 0;
         float t = 0f;
         bool waiting = false;
-        bool spinDone = false;
-        float spinTimer = 0f;
-        float spinDuration = 2f; // duración de 2 loops aprox
-        bool spinningNow = false;
+        public PlayerMovement playerMovement;
 
-        void Start()
+
+    void Start()
         {
             transform.position = points[0].position;
             transform.rotation = points[0].rotation;
 
             cameraFollow.enabled = false;
-
+            playerMovement.enabled = false; 
             animator.SetBool("greeting", true);
         }
 
         void Update()
         {
             Recorrido();
-            if (spinningNow)
-            {
-                spinTimer += Time.deltaTime;
-
-                if (spinTimer >= spinDuration)
-                {
-                    animator.SetBool("spinning", false);
-                    spinningNow = false;
-                }
-            }
         }
 
         void Recorrido()
@@ -61,27 +49,23 @@
                 t = 0f;
                 waiting = true;
 
-                // 🔥 Cuando llega al penúltimo punto
-                if (index == points.Length - 2 && !spinDone)
+                if (index == points.Length - 2)
                 {
-                    SpinCharacter();
+                    GreetingMoment();
                 }
 
                 Invoke(nameof(Next), waitTime);
             }
         }
 
-        void SpinCharacter()
+        void GreetingMoment()
         {
-            spinDone = true;
-            spinningNow = true;
-
             animator.SetBool("greeting", false);
-            animator.SetBool("spinning", true);
+            animator.SetBool("idle", true);
         }
 
 
-        void Next()
+    void Next()
         {
             waiting = false;
 
@@ -97,6 +81,7 @@
             animator.SetBool("idle", true);
 
             cameraFollow.enabled = true;
+            playerMovement.enabled = true;
             this.enabled = false;
         }
     }

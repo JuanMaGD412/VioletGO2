@@ -13,7 +13,7 @@ public class TriviaManager : MonoBehaviour
     private Pregunta[] preguntas;
     private int preguntaActual = 0;
     private int respuestasCorrectas = 0;
-    public int numeroLaberinto; // importante asignarlo en Unity
+    public int numeroLaberinto; 
     public TMP_Text textoRangoFinal;
 
     [Header("Panel Resultado")]
@@ -125,8 +125,8 @@ public class TriviaManager : MonoBehaviour
     {
         panelResultado.SetActive(true);
 
-        textoAciertos.text = "Correctas: " + aciertos;
-        textoFallos.text = "Incorrectas: " + fallos;
+        textoAciertos.text = "" + aciertos;
+        textoFallos.text = "" + fallos;
 
         string icono = "";
 

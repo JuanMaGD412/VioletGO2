@@ -68,7 +68,6 @@ public class PlayerMovement : MonoBehaviour
 
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
 
-            // 🎬 Animaciones
             animator.SetBool("walking", !running);
             animator.SetBool("running", running);
             animator.SetBool("idle", false);
